@@ -1,7 +1,7 @@
 ---
 #preview
-title: Interior design studio
-image: /img/covers/1.jpg
+title: Ceylan Nest
+image: /img/CeylanNest.jpg
 category: Architecture
 category_slug: architecture
 date: may 24 2023

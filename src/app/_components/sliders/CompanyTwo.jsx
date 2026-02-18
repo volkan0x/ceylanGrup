@@ -50,8 +50,8 @@ const CompanySlider = () => {
                         </Swiper>
                         <div className="mil-illustration-slider-nav mil-up">
                             <div className="mil-nav-buttons">
-                                <div className="mil-slider-button mil-illustration-prev">Prev</div>
-                                <div className="mil-slider-button mil-illustration-next">Next</div>
+                                <div className="mil-slider-button mil-illustration-prev">Önceki</div>
+                                <div className="mil-slider-button mil-illustration-next">Sonraki</div>
                             </div>
                         </div>
                     </div>

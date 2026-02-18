@@ -14,7 +14,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: {
-    default: "Services",
+    default: "Hizmetler",
   },
   description: AppData.settings.siteDescription,
 }
@@ -24,7 +24,7 @@ async function Services() {
   
   return (
     <>
-      <PageBanner pageTitle={"Our Services"} breadTitle={"Services"} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={"Hizmetlerimiz"} breadTitle={"Hizmetler"} bgImage={"/img/photo/12.jpg"} />
          
       {/* services */}
       <section>
@@ -35,18 +35,15 @@ async function Services() {
                   <div className="col-lg-8">
 
                       <div className="mil-center mil-mb-120">
-                          <span className="mil-suptitle mil-upper mil-up mil-mb-30">Modern concept</span>
-                          <p className="mil-text-lg mil-up">Ruizarch we are a leader in architecture and design with a user-centric approach and deep technical expertise. We are consistently ranked as one of the top 10 architecture firms in the world, and our core disciplines are supported by a wide range of complementary services, all of which have a singular goal: to build environments where our clients thrive.</p>
+                          <span className="mil-suptitle mil-upper mil-up mil-mb-30">Modern yaklaşım</span>
+                          <p className="mil-text-lg mil-up">Ceylan Grup, kullanıcı odaklı yaklaşımı ve güçlü teknik uzmanlığıyla mimarlık ve tasarımda lider bir ekip olarak hizmet verir. Çekirdek disiplinlerimizi destekleyen geniş hizmet yelpazemizin tek hedefi, müşterilerimizin geliştiği ve değer ürettiği mekânlar inşa etmektir.</p>
                       </div>
-
                   </div>
               </div>
-
               <div className="mil-center mil-mb-90">
-                  <span className="mil-suptitle mil-upper mil-up mil-mb-30">On This We Work</span>
-                  <h2 className="mil-upper mil-up">Exclusive Services</h2>
+                  <span className="mil-suptitle mil-upper mil-up mil-mb-30">Odaklandığımız Alanlar</span>
+                  <h2 className="mil-upper mil-up">Özel Hizmetler</h2>
               </div>
-
               <div className="row">
                   {services.map((item, key) => (
                   <div className="col-lg-4 mil-up" key={`services-item-${key}`}>

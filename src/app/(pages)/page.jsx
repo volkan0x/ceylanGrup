@@ -10,7 +10,6 @@ import HeroOneSection from "@components/sections/HeroOne"
 import AboutSection from "@components/sections/About";
 import IdeasSection from "@components/sections/Ideas";
 import ServicesSection from "@components/sections/Services";
-import AdvantagesSection from "@components/sections/Advantages";
 import LatestProjectsSection from "@components/sections/LatestProjects";
 import HowWeWorkSection from "@components/sections/HowWeWork";
 import LatestPostsSection from "@components/sections/LatestPosts";
@@ -33,15 +32,14 @@ async function Home1() {
   return (
     <>
       <HeroOneSection />
-      <PartnersSlider />
+      {/* <PartnersSlider /> */}
       <AboutSection />
       <IdeasSection />
       <ServicesSection />
-      <AdvantagesSection />
       <Suspense fallback={<div>Loading...</div>}>
         <LatestProjectsSection projects={projects} />
       </Suspense>
-      <HowWeWorkSection />
+      {/* <HowWeWorkSection /> */}
       <Suspense fallback={<div>Loading...</div>}>
         <LatestPostsSection posts={posts} />
       </Suspense>

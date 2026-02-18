@@ -1,12 +1,12 @@
 {
-    "title": "Get started with the project today",
-    "subtitle": "Bring your ideas to life",
+    "title": "Projeye bugün başlayın",
+    "subtitle": "Fikirlerinizi hayata geçirin",
     "phone": {
-        "label": "New project",
+        "label": "Yeni Proje",
         "value": "1 800 847 7978"
     },
     "button": {
-        "label": "Start A Project",
+        "label": "Bize Ulaşın",
         "link": "/contact"
     },
     "bg_image": "/img/photo/11.jpg"

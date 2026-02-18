@@ -28,8 +28,8 @@ const ProcessSlider = ( { bgStyle = "default", paddingTop = "120" } ) => {
 
                         <div className="mil-adaptive-right mil-up mil-mb-90">
                             <div className="mil-nav-buttons">
-                                <div className="mil-slider-button mil-process-prev">Prev</div>
-                                <div className="mil-slider-button mil-process-next">Next</div>
+                                <div className="mil-slider-button mil-process-prev">Önceki</div>
+                                <div className="mil-slider-button mil-process-next">Sonraki</div>
                             </div>
                         </div>
 

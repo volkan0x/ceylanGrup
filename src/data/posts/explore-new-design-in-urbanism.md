@@ -1,8 +1,8 @@
 ---
 #preview
-title: 'Explore new design in urbanism'
+title: 'Kentsel Tasarımda Yeni Yaklaşımlar'
 date: '2022-04-02'
-image: "/img/covers/1.jpg"
+image: "/img/Bursa.avif"
 categories:
     - Urban
 tags:
@@ -10,22 +10,26 @@ tags:
     - UI
     - Design
 author: Nguta Ithya
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+short: Kentsel tasarımda yeni yaklaşımlar; iklim dayanıklılığı, yaya odaklı planlama ve kamusal alan kalitesi üzerinden kentlerin geleceğini şekillendiriyor.
 
 #full details
-introTitle: Explore new <span class="mil-accent">design</span><br> in urbanism
+introTitle: Kentsel alanda <span class="mil-accent">yeni</span><br>tasarım yaklaşımları
 ---
 
-Gutem temporibus quae facilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+![Bursa](/img/Bursa.avif)
 
-###### Voluptatem odit ullam veritatis
+Kentsel tasarımın odağı artık yalnızca estetik değil; iklim krizine uyum, sosyal kapsayıcılık ve yaşam kalitesi. Yeni yaklaşımlar, mahalle ölçeğinde yeşil koridorları, gölgelik yaya akslarını ve erişilebilir kamusal alanları bir bütün olarak ele alıyor. Böylece şehirler, hem sıcak dalgalarına karşı daha dayanıklı hale geliyor hem de günlük yaşamda daha sağlıklı ve güvenli bir deneyim sunuyor.
 
-Omnis consectetur in libero! Quo animi minus sunt, excepturi inventore! Recusandae enim fugit saepe mollitia laboriosam minima sapiente laborum aspernatur ut! Voluptatibus tempora cupiditate nulla cum dicta odit unde eius sit molestias corrupti pariatur illum aspernatur blanditiis, dolor earum quidem incidunt eligendi magnam obcaecati iure quis corporis. Perspiciatis rem provident aliquid iusto temporibus, exercitationem voluptatibus accusamus amet ratione atque, dolor vel necessitatibus illo ipsa officia, sunt quia magni saepe velit ipsum sapiente blanditiis minima.
+Planlama süreçlerinde veri temelli kararlar ön plana çıkıyor. Yaya ve bisiklet akışları, gün içi kullanım yoğunlukları ve mikroiklim verileri, meydanların ve sokakların yeniden kurgulanmasını sağlıyor. Bu yaklaşım, araç odaklı çözümlerin yerine, sakinler için konforlu ve erişilebilir bir hareketlilik ağı oluşturuyor.
 
-- Voluptate aspernatur
-- Fugiat asperiores
-- Doloremque quidem porro
-- Numquam porro sequi
-- Laudantium quis
+###### Neyi hedefliyoruz?
 
-Voluptatem odit ullam veritatis corrupti officia non aperiam eius vero amet, sed porro blanditiis, harum, quo fugit cupiditate. Maxime quaerat ratione
+İyi tasarlanmış kamusal alanlar, sadece güzel görünmekle kalmaz; aidiyet duygusu yaratır ve mahalle dayanışmasını güçlendirir. Kent mobilyaları, gölgelik elemanları, yerel bitki seçimi ve aydınlatma gibi detaylar; güvenlik ve konforu doğrudan etkiler. Bu nedenle, küçük ölçekli dokunuşlar bile büyük bir dönüşüm yaratabilir.
+
+- Yaya ve bisiklet öncelikli ulaşım
+- Isı adasını azaltan yeşil altyapı
+- Her yaş için erişilebilir kamusal alanlar
+- Yerel kimliği güçlendiren tasarım dili
+- Düşük bakım maliyetiyle sürdürülebilir çözümler
+
+Sonuç olarak, kentsel tasarımda yeni yaklaşımlar; daha dirençli, daha kapsayıcı ve daha yaşanabilir şehirler kurmayı hedefliyor. Bu vizyon, yalnızca bugünün ihtiyaçlarını değil, geleceğin kent yaşamını da güvence altına alıyor.

@@ -1,7 +1,7 @@
 ---
 #preview
-title: Cascade of Lava
-image: /img/covers/4.jpg
+title: Ceylan Dİamond Odunluk
+image: /img/CeylanOdunluk.jpg
 category: Decor
 category_slug: decor
 date: may 24 2023

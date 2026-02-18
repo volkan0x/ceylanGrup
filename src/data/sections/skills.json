@@ -1,23 +1,23 @@
 {
-    "title": "We make custom made items",
-    "subtitle": "Our Skills",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Size özel çözümler üretiyoruz",
+    "subtitle": "Yetkinliklerimiz",
+    "description": "Tasarım, planlama ve uygulama süreçlerinde uzmanlığımızı bir araya getiririz.",
     "items": [
         {
             "value": "35",
-            "label": "Design"
+            "label": "Tasarım"
         },
         {
             "value": "60",
-            "label": "Interior Scetch"
+            "label": "İç Mekân Eskizi"
         },
         {
             "value": "80",
-            "label": "3D Modelling"
+            "label": "3D Modelleme"
         },
         {
             "value": "40",
-            "label": "Planning"
+            "label": "Planlama"
         }
     ]
 }

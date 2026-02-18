@@ -12,17 +12,17 @@ const Pagination = ({ currentPage, totalItems, perPage, renderPageLink }) => {
         <div className="mil-pagination mil-up">
             <div className="mil-nav-buttons">
                 {currentPage > 1 &&
-                <Link key="pagination-item-prev" href={currentPage > 1 ? renderPageLink( currentPage - 1 ) : renderPageLink( currentPage )} className="mil-slider-button mil-banner-prev">Prev</Link>
+                <Link key="pagination-item-prev" href={currentPage > 1 ? renderPageLink( currentPage - 1 ) : renderPageLink( currentPage )} className="mil-slider-button mil-banner-prev">Önceki</Link>
                 }
                 {currentPage <= 1 &&
-                <div key="pagination-item-prev" className="mil-slider-button mil-banner-prev swiper-button-disabled">Prev</div>
+                <div key="pagination-item-prev" className="mil-slider-button mil-banner-prev swiper-button-disabled">Önceki</div>
                 }
 
                 {currentPage < pages.length &&
-                <Link key="pagination-item-next" href={currentPage < pages.length ? renderPageLink( currentPage + 1 ) : renderPageLink( currentPage )} className="mil-slider-button mil-banner-next">Next</Link>
+                <Link key="pagination-item-next" href={currentPage < pages.length ? renderPageLink( currentPage + 1 ) : renderPageLink( currentPage )} className="mil-slider-button mil-banner-next">Sonraki</Link>
                 }
                 {currentPage == pages.length &&
-                <div key="pagination-item-next" className="mil-slider-button mil-banner-next swiper-button-disabled">Next</div>
+                <div key="pagination-item-next" className="mil-slider-button mil-banner-next swiper-button-disabled">Sonraki</div>
                 }
             </div>
             <ul className="mil-page-numbers">

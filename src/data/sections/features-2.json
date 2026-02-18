@@ -1,36 +1,36 @@
 {
     "items": [
         {
-            "title": "Perfect <br>Planning",
-            "text": "Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title": "Mükemmel <br>Planlama",
+            "text": "İhtiyaçları doğru analiz ederek planlama sürecini net ve uygulanabilir hale getiririz.",
             "list": [
-                "3D Modeling",
-                "Programs to Map Territory",
-                "Robotics and AI Technology",
-                "Morphological Thinking",
-                "Material Simulation"
+                "3D Modelleme",
+                "Bölge Haritalama Programları",
+                "Robotik ve Yapay Zekâ Teknolojisi",
+                "Morfolojik Düşünme",
+                "Malzeme Simülasyonu"
             ]
         },
         {
-            "title": "Professional <br>Design",
-            "text": "Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "title": "Profesyonel <br>Tasarım",
+            "text": "Fonksiyonel ve estetik tasarımlar geliştirerek projelere değer katarız.",
             "list": [
-                "3D Modeling",
-                "Programs to Map Territory",
-                "Robotics and AI Technology",
-                "Morphological Thinking",
-                "Material Simulation"
+                "3D Modelleme",
+                "Bölge Haritalama Programları",
+                "Robotik ve Yapay Zekâ Teknolojisi",
+                "Morfolojik Düşünme",
+                "Malzeme Simülasyonu"
             ]
         },
         {
-            "title": "Best Experts <br>Team",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed tempor incididunt ut labore et dolore magna aliqua.",
+            "title": "En İyi Uzman <br>Ekip",
+            "text": "Disiplinler arası ekibimizle proje süreçlerini güvenle yönetiriz.",
             "list": [
-                "3D Modeling",
-                "Programs to Map Territory",
-                "Robotics and AI Technology",
-                "Morphological Thinking",
-                "Material Simulation"
+                "3D Modelleme",
+                "Bölge Haritalama Programları",
+                "Robotik ve Yapay Zekâ Teknolojisi",
+                "Morfolojik Düşünme",
+                "Malzeme Simülasyonu"
             ]
         }
     ]

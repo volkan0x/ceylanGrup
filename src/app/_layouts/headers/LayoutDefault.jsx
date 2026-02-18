@@ -31,7 +31,7 @@ const DefaultHeader = () => {
             <div className="container-fluid">
                 <div className="mil-top-panel-content">
                     <Link href="/" className="mil-logo">
-                        <img src={AppData.header.logo.image} alt={AppData.header.logo.alt} style={{"width": "130px"}} />
+                        <img src={AppData.header.logo.image} alt={AppData.header.logo.alt} style={{"width": "100px"}} />
                     </Link>
 
                     <div className={`mil-navigation ${toggle ? "mil-active" : ""}`}>
@@ -61,7 +61,7 @@ const DefaultHeader = () => {
 
                     {/* right buttons */}
                     <div className="mil-top-panel-buttons">
-                        <Link href="/contact" className="mil-button mil-sm">Start A Project</Link>
+                        <Link href="/contact" className="mil-button mil-sm">Türkçe</Link>
 
                         <div className={`mil-menu-btn ${toggle ? "mil-active" : ""}`} onClick={() => setToggle(!toggle)}>
                             <span></span>

@@ -1,31 +1,36 @@
 {
-    "bg_image": "/img/photo/1.jpg",
-    "title": "Modern<br/><span class=\"mil-accent\">Architectural</span><br/>Design",
-    "subtitle": "The future",
+    "bg_image": "/img/photo/CeylanGrup.jpg",
+    "title": "Ceylan<br/><span class=\"mil-accent\">Gruba</span><br/>Hoşgeldİnİz",
+    "subtitle": "Geleceğİ İnşa Edİyoruz",
     "button": {
-        "link": "/projects",
-        "label": "View Projects"
+        "link": "/projelerimiz",
+        "label": "Projelerİmİz"
     },
     "numbers": [
         {
             "value": "346",
             "afterValue": "+",
-            "label": "Succeeded <br/>Projects"
-        },
+            "label": "Başarılı <br/> Projeler"
+        },  
         {
             "value": "9",
             "afterValue": "k+",
-            "label": "Working <br/>Hours"
+            "label": "İş <br/>Saatleri"
         },
         {
             "value": "10",
             "afterValue": "+",
-            "label": "Years <br/>Experience"
+            "label": "Yıl <br/>Deneyim"
         },
         {
-            "value": "99",
+            "value": "2",
             "afterValue": "+",
-            "label": "Billion <br/>Invested"
+            "label": "Milyon <br/>Yatırım"
+        },
+        {
+            "value": "2",
+            "afterValue": "+",
+            "label": "Milyon <br/>Yatırım"
         }
     ]
 }

@@ -16,7 +16,7 @@ import PopularsPostsData from "@data/sections/popular-posts.json";
 
 export const metadata = {
   title: {
-		default: "Blog",
+    default: "Blog",
 	},
   description: AppData.settings.siteDescription,
 }
@@ -28,7 +28,7 @@ async function Blog() {
 
   return (
     <>
-      <PageBanner pageTitle={"Insights"} breadTitle={"Blog"} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={"Blog"} breadTitle={"Blog"} bgImage={"/img/blog.jpg"} />
 
       {/* blog */}
       <section>
@@ -41,7 +41,7 @@ async function Blog() {
                       {/* filter */}
                       <div className="mil-filter mil-up mil-mb-90">
                           <div className="mil-filter-links">
-                              <Link href="/blog" className="mil-current">All</Link>
+                              <Link href="/blog" className="mil-current">Hepsi</Link>
                               {categories.map((item, key) => (
                               <Link key={`categories-item-${key}`} href={`/blog/category/${item.id}`}>{item.title}</Link>
                               ))}

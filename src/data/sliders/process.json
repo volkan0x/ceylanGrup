@@ -1,47 +1,47 @@
 {
-    "title": "Our process",
-    "subtitle": "How it Works",
+    "title": "Süreçlerimiz",
+    "subtitle": "Nasıl Çalışır",
     "slides": [
         [
             {
-                "title": "We Hear",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+                "title": "Dinliyoruz",
+                "text": "İhtiyaçları doğru anlayarak proje hedeflerini netleştiririz."
             },
             {
-                "title": "We Give Ideas",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+                "title": "Fikir Üretiyoruz",
+                "text": "Yaratıcı ve uygulanabilir çözümler geliştiririz."
             },
             {
-                "title": "We Plan the Bases",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+                "title": "Planlıyoruz",
+                "text": "Zaman, bütçe ve kalite hedefleriyle süreci kurgularız."
             }
         ],
         [
             {
-                "title": "We Hear",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+                "title": "Dinliyoruz",
+                "text": "İhtiyaçları doğru anlayarak proje hedeflerini netleştiririz."
             },
             {
-                "title": "We Give Ideas",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+                "title": "Fikir Üretiyoruz",
+                "text": "Yaratıcı ve uygulanabilir çözümler geliştiririz."
             },
             {
-                "title": "We Plan the Bases",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+                "title": "Planlıyoruz",
+                "text": "Zaman, bütçe ve kalite hedefleriyle süreci kurgularız."
             }
         ],
         [
             {
-                "title": "We Hear",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+                "title": "Dinliyoruz",
+                "text": "İhtiyaçları doğru anlayarak proje hedeflerini netleştiririz."
             },
             {
-                "title": "We Give Ideas",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+                "title": "Fikir Üretiyoruz",
+                "text": "Yaratıcı ve uygulanabilir çözümler geliştiririz."
             },
             {
-                "title": "We Plan the Bases",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+                "title": "Planlıyoruz",
+                "text": "Zaman, bütçe ve kalite hedefleriyle süreci kurgularız."
             }
         ]
     ]

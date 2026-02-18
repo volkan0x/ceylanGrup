@@ -1,10 +1,10 @@
 {
-    "title": "Interested in Working Together?",
-    "subtitle": "Your Future",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida.",
+    "title": "Birlikte Çalışmak İster misiniz?",
+    "subtitle": "Geleceğiniz",
+    "description": "Güçlü bir ekibin parçası olarak değer üreten projelerde yer almak için bizimle iletişime geçin.",
     "button": {
         "link": "/contact",
-        "label": "Sign up now"
+        "label": "Hemen Başvur"
     },
     "image": {
         "url": "/img/photo/13.jpg",
@@ -13,6 +13,6 @@
     "avatar": {
         "image": "/img/faces/2.jpg",
         "name": "Joe French",
-        "subname": "Recruit"
+        "subname": "İK"
     }
 }

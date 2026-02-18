@@ -1,17 +1,17 @@
 {
     "image": {
-        "url": "/img/photo/2.jpg",
+        "url": "/img/photo/cc.jpg",
         "alt": "img"
     },
     "number": {
         "value": "17",
-        "label": "<span class=\"mil-marker\">Years</span> of <br/>successful <br/>work"
+        "label": "<span class=\"mil-marker\">Yıl</span> <br/>İş <br/>deneyİmİ"
     },
-    "title": "Great experience",
-    "subtitle": "About Studio",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida.",
+    "title": "",
+    "subtitle": "",
+    "description": "<div class=\"text-block\"><h2>Kurumsal Yapı</h2><p>Ceylan Grup, inşaat sektöründe uzun yıllara dayanan tecrübesiyle faaliyet gösteren, çok disiplinli bir yapı grubudur. Bursa merkezli organizasyon yapısıyla başta Marmara Bölgesi olmak üzere konut, ticari ve endüstriyel yapı projelerinde uzmanlaşmıştır. Kuruluşundan bu yana benimsediği kalite odaklı yaklaşım, planlı çalışma disiplini ve güven esasına dayalı iş anlayışı ile sektörde güçlü bir konum edinmiştir.</p></div><div class=\"text-block\"><h2>Proje Deneyimi</h2><p>Ceylan Grup, bugüne kadar 10.000'in üzerinde konut ile birlikte çok sayıda fabrika, depo ve ticari yapı projesini başarıyla hayata geçirmiştir. Farklı ölçek ve nitelikteki projelerde edindiği deneyim sayesinde, her bölgenin ihtiyaçlarını doğru analiz ederek bulunduğu lokasyona değer katan yapılar üretmektedir.</p></div><div class=\"text-block\">",
     "button": {
         "link": "https://www.youtube.com/watch?v=HR4giV4oUjI",
-        "label": "Watch video"
+        "label": "Dİğer Projeler"
     }
 }

@@ -1,7 +1,7 @@
 ---
 #preview
-title: City House
-image: /img/covers/2.jpg
+title: Ceylan Plus Gümüştepe
+image: img/CeylanPlusGümüştepe.jpg
 category: Architecture
 category_slug: architecture
 date: may 24 2023

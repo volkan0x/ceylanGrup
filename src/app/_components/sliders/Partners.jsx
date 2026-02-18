@@ -23,7 +23,7 @@ const PartnersSlider = ( { bgStyle } ) => {
             >
                 {Data.items.map((item, key) => (
                 <SwiperSlide className="swiper-slide" key={`partners-slider-item-${key}`}>
-                    <a href={item.link} target="_blank" className="mil-partner-frame" style={{"width": "60px"}}><img src={item.image} alt={item.alt} /></a>
+                    <a href={item.link} className="mil-partner-frame"><img src={item.image} alt={item.alt} /></a>
                 </SwiperSlide>
                 ))}
             </Swiper>

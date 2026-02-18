@@ -11,7 +11,7 @@ import { getSortedProjectsData } from "@library/projects";
 
 export const metadata = {
   title: {
-		default: "Projects",
+    default: "Projeler",
 	},
   description: AppData.settings.siteDescription,
 }
@@ -21,7 +21,7 @@ async function Projects() {
 
   return (
     <>
-      <PageBanner pageTitle={"Projects"} breadTitle={"Projects"} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={"Projeler"} breadTitle={"Projeler"} bgImage={"/img/photo/12.jpg"} />
 
       {/* portfolio */}
       <section>
@@ -29,7 +29,7 @@ async function Projects() {
           <div className="mil-background-grid mil-softened" />
           
           <div className="mil-center">
-            <p className="mil-text-lg mil-up mil-mb-90">Our Projects harness design and technology to create places where <br/> people live, work, and heal.</p>
+            <p className="mil-text-lg mil-up mil-mb-90">Projelerimiz, tasarım ve teknolojiyi bir araya getirerek insanların yaşadığı, çalıştığı ve iyileştiği mekânlar oluşturur.</p>
           </div>
 
           <Suspense fallback={<div>Loading...</div>}>

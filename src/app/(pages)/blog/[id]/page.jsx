@@ -13,10 +13,31 @@ import Sidebar from "@components/Sidebar";
 async function PostsDetail( { params } ) {
   const postData = await getSinglePostData(params);
   const authorData = await getSingleAuthorData(postData.author.toLowerCase().replace(' ', '-'));
+    const translateCategory = (value) => {
+        const map = {
+            Architecture: "Mimarlık",
+            Design: "Tasarım",
+            Technology: "Teknoloji",
+            Urban: "Kentsel",
+            Interior: "İç Mekân",
+            Decor: "Dekor",
+        };
+        return map[value] || value;
+    };
+    const translateTag = (value) => {
+        const map = {
+            Branding: "Markalaşma",
+            Construction: "İnşaat",
+            Development: "Geliştirme",
+            Design: "Tasarım",
+            UI: "Arayüz",
+        };
+        return map[value] || value;
+    };
 
   return (
     <>
-      <PageBannerTwo title={postData.introTitle} subTitle={postData.categories[0]} bgImage={postData.image} />
+    <PageBannerTwo title={postData.introTitle} subTitle={translateCategory(postData.categories[0])} bgImage={postData.image} />
       
       {/* blog */}
       <section>
@@ -43,12 +64,12 @@ async function PostsDetail( { params } ) {
                               <div className="col-lg-6">
                                   <div className="row">
                                       <div className="col-lg-4">
-                                          <h6 className="mil-upper mil-up mil-mb-30">Tags:</h6>
+                                          <h6 className="mil-upper mil-up mil-mb-30">Etiketler:</h6>
                                       </div>
                                       <div className="col-lg-8">
                                           <ul className="mil-list mil-dark mil-up mil-mb-30">
                                             {postData.tags.map((item, key) => (
-                                              <li className="mil-text-sm" key={`post-tag-item-${key}`}><Link href={`/blog/tag/${item.toLowerCase().replace(' ', '-')}`}>{item}</Link></li>
+                                              <li className="mil-text-sm" key={`post-tag-item-${key}`}><Link href={`/blog/tag/${item.toLowerCase().replace(' ', '-')}`}>{translateTag(item)}</Link></li>
                                             ))}
                                           </ul>
                                       </div>
@@ -58,7 +79,7 @@ async function PostsDetail( { params } ) {
                               <div className="col-lg-6">
                                   <div className="row">
                                       <div className="col-lg-4">
-                                          <h6 className="mil-upper mil-up mil-mb-30">Share:</h6>
+                                          <h6 className="mil-upper mil-up mil-mb-30">Paylaş:</h6>
                                       </div>
                                       <div className="col-lg-8">
                                           <ul className="mil-list mil-dark mil-up mil-mb-30">
@@ -97,10 +118,10 @@ async function PostsDetail( { params } ) {
                       <div className="col-lg-6">
 
                           <div className="mil-mb-60">
-                              <h3 className="mil-upper mil-up mil-mb-30">Leave a Reply</h3>
+                              <h3 className="mil-upper mil-up mil-mb-30">Yorum Bırak</h3>
 
                               <div className="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                                  <label className="mil-upper"><span>Write a comment</span><span className="mil-required">*</span></label>
+                                  <label className="mil-upper"><span>Yorum yaz</span><span className="mil-required">*</span></label>
                                   <textarea cols="30" rows="10"></textarea>
                               </div>
                           </div>
@@ -112,7 +133,7 @@ async function PostsDetail( { params } ) {
                               <div className="col-lg-6">
 
                                   <div className="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                                      <label className="mil-upper"><span>Full name</span><span className="mil-required">*</span></label>
+                                      <label className="mil-upper"><span>Ad soyad</span><span className="mil-required">*</span></label>
                                       <input type="text" placeholder="" />
                                   </div>
 
@@ -120,7 +141,7 @@ async function PostsDetail( { params } ) {
                               <div className="col-lg-6">
 
                                   <div className="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                                      <label className="mil-upper"><span>Email address</span><span className="mil-required">*</span></label>
+                                      <label className="mil-upper"><span>E-posta adresi</span><span className="mil-required">*</span></label>
                                       <input type="text" placeholder="email@mydomain.com" />
                                   </div>
 
@@ -128,7 +149,7 @@ async function PostsDetail( { params } ) {
                               <div className="col-lg-6">
 
                                   <div className="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                                      <label className="mil-upper"><span>Website</span><span className="mil-required">*</span></label>
+                                      <label className="mil-upper"><span>Web sitesi</span><span className="mil-required">*</span></label>
                                       <input type="text" placeholder="" />
                                   </div>
 
@@ -136,7 +157,7 @@ async function PostsDetail( { params } ) {
                               <div className="col-lg-6">
 
                                   <div className="mil-up mil-mb-30">
-                                      <button type="submit" className="mil-button mil-fw">Submit Comment</button>
+                                      <button type="submit" className="mil-button mil-fw">Yorumu Gönder</button>
                                   </div>
 
                               </div>
@@ -157,7 +178,7 @@ async function PostsDetail( { params } ) {
               <div className="row">
                   <div className="col-lg-7">
                       
-                      <h3 className="mil-upper mil-mb-60">Comments - <span className="mil-marker">03</span></h3>
+                      <h3 className="mil-upper mil-mb-60">Yorumlar - <span className="mil-marker">03</span></h3>
 
                       <ul className="mil-comments">
                           <li>
@@ -170,9 +191,9 @@ async function PostsDetail( { params } ) {
                                               <span className="mil-text-sm mil-dark-soft">September 23, 2023</span>
                                           </div>
                                       </div>
-                                      <a href="#." className="mil-mini-button">Reply</a>
+                                      <a href="#." className="mil-mini-button">Yanıtla</a>
                                   </div>
-                                  <p>We realised we really wanted to catch a glimpse of what went on behind the scenes of the companies we looked up to.</p>
+                                  <p>Projeyle ilgili süreçlerde ekip oldukça ilgiliydi. Süreçleri net ve anlaşılır şekilde yönlendirdiler.</p>
                               </div>
                               <ul className="mil-comments">
                                   <li>
@@ -185,9 +206,9 @@ async function PostsDetail( { params } ) {
                                                       <span className="mil-text-sm mil-dark-soft">September 23, 2023</span>
                                                   </div>
                                               </div>
-                                              <a href="#." className="mil-mini-button">Reply</a>
+                                              <a href="#." className="mil-mini-button">Yanıtla</a>
                                           </div>
-                                          <p>We realised we really wanted to catch a glimpse of what went on behind the scenes of the companies we looked up to.</p>
+                                          <p>İletişim çok hızlıydı ve beklentilerimiz doğru analiz edildi.</p>
                                       </div>
                                   </li>
                               </ul>
@@ -202,9 +223,9 @@ async function PostsDetail( { params } ) {
                                               <span className="mil-text-sm mil-dark-soft">September 23, 2023</span>
                                           </div>
                                       </div>
-                                      <a href="#." className="mil-mini-button">Reply</a>
+                                      <a href="#." className="mil-mini-button">Yanıtla</a>
                                   </div>
-                                  <p>We realised we really wanted to catch a glimpse of what went on behind the scenes of the companies we looked up to.</p>
+                                  <p>Zamanında teslim ve kaliteli işçilikten memnun kaldık.</p>
                               </div>
                           </li>
                       </ul>

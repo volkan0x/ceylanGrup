@@ -14,7 +14,7 @@ export async function generateMetadata({ params }) {
   const postData = await getSingleProjectData(params);
   
   return {
-      title: postData.title + " | Projects",
+            title: postData.title + " | Projeler",
   }
 }
 
@@ -190,16 +190,16 @@ async function ProjectDetail ( { params } ) {
                   <div className="col-md-6 col-lg-6">
                       {prev.id != 0 &&
                       <div className="mil-prev-project mil-mb-60">
-                          <h4 className="mil-upper mil-up mil-mb-30">Previous project</h4>
-                          <Link href={`/projects/${prev.id}`} className="mil-link mil-left-link mil-upper mil-up">Previous work <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></Link>
+                          <h4 className="mil-upper mil-up mil-mb-30">Önceki Proje</h4>
+                          <Link href={`/projects/${prev.id}`} className="mil-link mil-left-link mil-upper mil-up">Önceki Çalışma <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></Link>
                       </div>
                       }
                   </div>
                   <div className="col-md-6 col-lg-6">
                       {next.id != 0 &&
                       <div className="mil-next-project mil-mb-60">
-                          <h4 className="mil-upper mil-up mil-mb-30">Next project</h4>
-                          <Link href={`/projects/${next.id}`} className="mil-link mil-upper mil-up">Next work <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></Link>
+                          <h4 className="mil-upper mil-up mil-mb-30">Sonraki Proje</h4>
+                          <Link href={`/projects/${next.id}`} className="mil-link mil-upper mil-up">Sonraki Çalışma <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></Link>
                       </div>
                       }
                   </div>

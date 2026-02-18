@@ -13,9 +13,9 @@ import { getAuthorPosts } from "@library/posts";
 export async function generateMetadata({ params }) {
   const authorData = await getSingleAuthorData(params);
   
-  return {
-    title: authorData.title + " | Author | Blog",
-  }
+    return {
+        title: authorData.title + " | Yazar | Blog",
+    }
 }
 
 async function BlogAuthor( { params } ) {
@@ -26,7 +26,7 @@ async function BlogAuthor( { params } ) {
   return (
     <>
       
-      <PageBanner pageTitle={"Author: "+authorData.title} breadTitle={authorData.title} bgImage={"/img/photo/12.jpg"} />
+    <PageBanner pageTitle={"Yazar: "+authorData.title} breadTitle={authorData.title} bgImage={"/img/photo/12.jpg"} />
       
       {/* blog */}
       <section>
@@ -37,7 +37,7 @@ async function BlogAuthor( { params } ) {
                       {/* filter */}
                       <div className="mil-filter mil-up mil-mb-90">
                           <div className="mil-filter-links">
-                              <Link href="/blog" className="mil-current">All</Link>
+                              <Link href="/blog" className="mil-current">Hepsi</Link>
                               {categories.map((item, key) => (
                               <Link key={`categories-item-${key}`} href={`/blog/category/${item.id}`}>{item.title}</Link>
                               ))}

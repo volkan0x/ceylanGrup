@@ -1,16 +1,16 @@
 {
     "button": {
-        "label": "Find a Space",
-        "link": "/contact"
+        "label": "Ana Sayfa",
+        "link": "/"
     },
     "items": [
         {
-            "label": "Email address",
-            "value": "projects@ruizarch.com"
+            "label": "E-posta",
+            "value": "info@bursaceylangrup.com"
         },
         {
-            "label": "Free Consultation",
-            "value": "1 800 847 7978"
+            "label": "Telefon",
+            "value": "(549) 483-5416"
         }
     ]
 }

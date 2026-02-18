@@ -1,36 +1,32 @@
 ---
 #preview
-title: 'Modern Architectural Design'
+title: 'Modern Mimari Tasarım'
 date: '2022-02-02'
-image: "/img/covers/8.jpg"
+image: "/img/bursa-unsplash-1.jpg"
 categories:
     - Design
 tags:
     - Design
     - Development
 author: Charlie Williams
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+short: Modern mimari tasarım; işlev, estetik ve sürdürülebilirliği bir araya getirir.
 
 #full details
-introTitle: Modern <span class="mil-accent">Architectural</span><br>Design
+introTitle: Modern <span class="mil-accent">Mimari</span><br>Tasarım
 ---
 
-Are you passionate about design and interested in pursuing a career as a graphic designer? Graphic design is a dynamic field that combines creativity, technical skills, and a keen eye for aesthetics. Whether you're a beginner or someone looking to enhance their skills, this article will guide you through 10 simple steps to become a graphic designer.
+![Bursa](/img/bursa-unsplash-1.jpg)
 
-> "Creativity is intelligence having fun." - Albert Einstein
+Modern mimari tasarım, sadece estetik bir ifade değil; aynı zamanda iklim, bağlam ve kullanıcı ihtiyaçlarını birlikte ele alan bütüncül bir yaklaşımdır. Malzeme seçimi, enerji verimliliği ve mekânsal esneklik, çağdaş projelerin temel kriterleri haline gelmiştir.
 
-##### Understand the Field
+##### Mekânsal kurgu
 
-Start by gaining a comprehensive understanding of what graphic design entails. Research the different types of graphic design, such as branding, web design, print design, and illustration. Explore the work of successful graphic designers and analyze their portfolios to learn about various design styles and techniques.
+İyi tasarlanmış bir yapı, işlevleri doğru hiyerarşiyle kurgular. Kamusal–özel alan ayrımı, dolaşımın netliği ve doğal ışık kullanımı; kullanıcı deneyimini doğrudan etkiler.
 
-##### Get a Design Education
+##### Sürdürülebilirlik
 
-While formal education is not always a requirement, it can provide you with a solid foundation and enhance your credibility as a graphic designer. Consider pursuing a degree or diploma in graphic design or a related field. Look for reputable design schools or online courses that offer comprehensive programs to learn both theory and practical skills.
+Doğal havalandırma, gölgeleme ve düşük karbonlu malzemeler; yapının çevresel etkisini azaltır. Bu yaklaşım, uzun vadeli işletme maliyetlerini düşürür ve yaşam konforunu artırır.
 
-##### Build Your Portfolio
+##### Teknoloji ve yenilik
 
-Your portfolio is your calling card as a graphic designer. Compile a collection of your best design projects to showcase your abilities and style. Include a variety of work, such as logos, brochures, websites, or illustrations, to demonstrate your versatility. Constantly update your portfolio as you complete new projects or improve existing ones.
-
-##### Gain Practical Experience
-
-To become a successful graphic designer, practical experience is crucial. Seek internships, freelance opportunities, or entry-level positions to gain hands-on experience in the field. This will allow you to apply your skills in real-world scenarios, understand client requirements, work with deadlines, and collaborate with others in a professional environment.
+3D modelleme, simülasyon ve akıllı bina sistemleri; tasarımın doğruluğunu artırır. Böylece proje, uygulama aşamasında daha kontrollü ve öngörülebilir ilerler.

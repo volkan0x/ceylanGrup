@@ -1,68 +1,68 @@
 ---
 #preview details
-title: "Work Space"
+title: "Çalışma Alanı"
 icon: "/img/icons/4.svg"
-short: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore aliqua."
+short: "Verimli ve konforlu çalışma ortamları için akıllı çözümler üretiriz."
 
 #full details
 description:
   - layout: 1
-    title: Description
+    title: Açıklama
     content:
-      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden - Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+      <p>Çalışma alanı tasarımları, üretkenliği artıran ergonomik çözümlerle şekillenir. Alan planlaması, ekiplerin iş akışını destekleyecek şekilde kurgulanır.</p>
+      <p>Işık, akustik ve sirkülasyon gibi faktörler, konfor ve verimliliği doğrudan etkiler. Bu nedenle tüm detaylar bütüncül olarak ele alınır.</p>
     divider: true
 
   - layout: 2
-    title: Benefits
+    title: Faydalar
     content:
-      <p>Our architectural work improves people's lives. We work closely with clients to create functional solutions that creatively respond to the needs of individuals and organizations. From corporate facility innovation to commercial developments, we create beautiful, balanced designs fueled by big ideas.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>İyi tasarlanmış ofisler çalışan memnuniyetini yükseltir, verimliliği artırır.</p>
+      <p>Esnek alan çözümleri, büyüyen ekiplerin ihtiyaçlarına hızlı uyum sağlar.</p>
     list:
-      - 3D Modeling
-      - Programs to Map Territory
-      - Robotics and AI Technology
-      - Material Simulation
+      - 3D Modelleme
+      - Bölge Haritalama Programları
+      - Robotik ve Yapay Zekâ Teknolojisi
+      - Malzeme Simülasyonu
     divider: false
 
 sidebar:
-  title: Info Areas
+  title: Bilgi Alanları
   items:
     - layout: list
-      title: Master Planning
+      title: Master Planlama
       content:
-        - Workplace Consulting
-        - 3D Modeling Planning
-        - Architecture
+        - İş Yeri Danışmanlığı
+        - 3D Modelleme Planlama
+        - Mimarlık
 
     - layout: list
-      title: Sustainability & Wellness
+      title: Sürdürülebilirlik ve Sağlık
       content:
-        - Recreational Parks
-        - Park and Public Squares
-        - Parkland
+        - Rekreasyon Alanları
+        - Park ve Meydanlar
+        - Yeşil Alanlar
 
     - layout: values
-      title: Benefits
+      title: Faydalar
       content:
         - value: 10
           afterValue: +
-          label: Years <br>Experience
+          label: Yıl <br>Deneyim
         
         - value: 99
           afterValue: +
-          label: Billion <br>Invested
+          label: Milyar <br>Yatırım
 
         - value: 10
           afterValue: +
-          label: Years <br>Experience
+          label: Yıl <br>Deneyim
         
         - value: 99
           afterValue: +
-          label: Billion <br>Invested
+          label: Milyar <br>Yatırım
 
     - layout: list
-      title: Project agent
+      title: Proje sorumlusu
       content:
         - Joe French
         - joe.french@ruizarch.com
@@ -80,52 +80,52 @@ gallery:
 
 description2:
   - layout: 1
-    title: Perfect Planning
+    title: Kusursuz Planlama
     content:
-      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+      <p>Planlama sürecinde iş akışlarını netleştirir, riskleri önceden değerlendiririz.</p>
     divider: false
 
   - layout: 1
-    title: Approach
+    title: Yaklaşım
     content:
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+      <p>Proje paydaşlarıyla şeffaf iletişim kurar, çözüm odaklı ve esnek bir yaklaşım izleriz.</p>
     divider: true
 
 sidebar2:
   items:
     - layout: list
-      title: Capabilities
+      title: Yetkinlikler
       content:
-        - Non dictum quam risus pharetra esta.
-        - Risus pharetra, ullamcorper.
-        - Hac nibh fermentum, condimentum cursus.
-        - Massa volutpat purus sit elementum.
-        - Elit curabitur risus bibendum.
+        - İhtiyaç analizi ve konsept geliştirme.
+        - Proje yönetimi ve koordinasyon.
+        - Uygulama ve saha denetimi.
+        - Malzeme ve tedarik yönetimi.
+        - Kalite kontrol ve teslim.
 
     - layout: list
-      title: Work Process
+      title: İş Süreci
       content:
-        - "Listen: Dictum quam risus pharetra esta."
-        - "Strategies: Ullamcorper tincidunt."
-        - "Project Work: Platea condimentum cursus."
-        - "Launch: Massa volutpat elementum."
+        - "Dinleme: İhtiyaçları doğru anlarız."
+        - "Strateji: Uygun yol haritası çıkarırız."
+        - "Proje Çalışması: Tasarım ve uygulamayı yürütürüz."
+        - "Teslim: Süreci başarıyla tamamlarız."
 
 faq:
-  subtitle: Have Some Questions?
-  title: We Can Help!
+  subtitle: Sorularınız mı var?
+  title: Yardımcı Olalım
   button:
-    label: More Questions?
+    label: Daha Fazla Soru?
     link: /contact
   items:
-    - label: General information
-      content: <p>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    - label: Genel Bilgilendirme
+      content: <p>Proje süreci, sözleşme ve teslimat adımları hakkında detaylı bilgi sağlayabiliriz.</p>
 
-    - label: Management of personal data
-      content: <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    - label: Kişisel verilerin yönetimi
+      content: <p>Kişisel verileriniz KVKK kapsamında güvenle saklanır ve yalnızca belirlenen amaçlarla kullanılır.</p>
 
-    - label: Does Ruizarch accept article submissions?
-      content: <p>Netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    - label: Ceylan Grup makale başvurusu kabul ediyor mu?
+      content: <p>Kurumsal yayınlarımız için içerik önerilerinizi değerlendirebiliriz.</p>
 
-    - label: What is the Ruizarch insights app?
-      content: <p>Malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    - label: Ceylan Grup içgörü uygulaması nedir?
+      content: <p>Proje ve sektör güncellemelerini paylaştığımız bilgilendirme kanalımızdır.</p>
 ---

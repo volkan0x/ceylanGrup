@@ -1,25 +1,25 @@
 {
-    "title": "Our Soul",
-    "subtitle": "Good Vision",
+    "title": "Ruhumuz",
+    "subtitle": "Güçlü Vizyon",
     "button": {
-        "label": "See All",
+        "label": "Tümünü Gör",
         "link": "/blog"
     },
     "items": [
         {
-            "title": "Professionals",
+            "title": "Profesyoneller",
             "icon": "/img/icons/11.svg",
-            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            "text": "Uzman kadromuzla kaliteli, güvenilir ve sürdürülebilir çözümler sunarız."
         },
         {
-            "title": "Programs",
+            "title": "Programlar",
             "icon": "/img/icons/11.svg",
-            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            "text": "Planlama ve yönetim süreçlerimizi güncel yazılım ve metodlarla destekleriz."
         },
         {
-            "title": "IT Techology",
+            "title": "BT Teknolojisi",
             "icon": "/img/icons/11.svg",
-            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            "text": "Dijital araçlarla tasarım, analiz ve uygulama süreçlerini hızlandırırız."
         }
     ]
 }

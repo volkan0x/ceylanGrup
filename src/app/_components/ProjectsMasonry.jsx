@@ -5,6 +5,18 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 
 const ProjectsMasonry = ({ projects, categories }) => {
+    const getProjectBg = (project) => {
+        const title = (project.title || "").toLowerCase();
+
+        if (title.includes("ceylan nest")) return "/img/CeylanNest.jpg";
+        if (title.includes("ceylan plus") && title.includes("gümüştepe")) return "/img/CeylanPlus.jpg";
+        if (title.includes("ceylan diamond") && title.includes("odunluk")) return "/img/CeylanDiamond.jpg";
+        if (title.includes("ceylan plus") && title.includes("özlüce")) return "/img/CeylanPlusOzluce.jpg";
+        if (title.includes("ceylan plaza")) return "/img/CeylanPlaza.png";
+        if (title.includes("ceylan plus") && title.includes("beşevler")) return "/img/CeylanPlusBesevler.jpg";
+    
+        return project.image;
+    };
     // Isotope
     const isotope = useRef();
     const [filterKey, setFilterKey] = useState("*");
@@ -49,9 +61,11 @@ const ProjectsMasonry = ({ projects, categories }) => {
         {/* filter */}
         <div className="mil-filter mil-up mil-mb-90">
             <div className="mil-filter-links">
-                <a href="#" data-filter="*" className="mil-current" onClick={ (e) => handleFilterKeyChange("*", e)}>All</a>
+                <a href="#" data-filter="*" className="mil-current" onClick={ (e) => handleFilterKeyChange("*", e)}>Hepsi</a>
                 {categories.map((item, key) => (
-                <a href="#" data-filter={`${item.slug}`} key={`projects-filter-item-${key}`} onClick={(e) => handleFilterKeyChange(item.slug, e)}>{item.name}</a>
+                <a href="#" data-filter={`${item.slug}`} key={`projects-filter-item-${key}`} onClick={(e) => handleFilterKeyChange(item.slug, e)}>
+                    {item.name === "Architecture" ? "Müteahhİtlİk" : item.name === "Interior" ? "Taahhüt" : item.name}
+                </a>
                 ))}
             </div>
         </div>
@@ -68,14 +82,14 @@ const ProjectsMasonry = ({ projects, categories }) => {
                 <div className={`mil-grid-item ${item.category_slug}`} key={`projects-item-${key}`}>
 
                     <Link href={`/projects/${item.id}`} className={item.orientation == "vertical" ? "mil-portfolio-item-2 mil-long-item mil-mb-30" : "mil-portfolio-item-2 mil-square-item mil-mb-30"}>
-                        <img src={item.image} alt={item.title} />
+                        <img src={getProjectBg(item)} alt={item.title} />
 
                         <div className="mil-project-descr">
                             <h3 className="mil-upper mil-mb-30">{item.title}</h3>
-                            <div className="mil-link mil-upper">Start A Project <div className="mil-arrow mil-light"><img src="/img/icons/1.svg" alt="arrow" /></div></div>
+                            <div className="mil-link mil-upper">Detay Gör <div className="mil-arrow mil-light"><img src="/img/icons/1.svg" alt="arrow" /></div></div>
                         </div>
 
-                        <div className="mil-category">{item.category}</div>
+                        <div className="mil-category">Müteahhİtlİk</div>
                     </Link>
 
                 </div>

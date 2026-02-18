@@ -13,9 +13,9 @@ import { getArchivePosts } from "@library/posts";
 export async function generateMetadata({ params }) {
   const archiveData = await getSingleArchiveData(params);
   
-  return {
-    title: archiveData.month+', '+archiveData.year + " | Archive | Blog",
-  }
+    return {
+        title: archiveData.month+', '+archiveData.year + " | Arşiv | Blog",
+    }
 }
 
 async function BlogArchive( { params } ) {
@@ -26,7 +26,7 @@ async function BlogArchive( { params } ) {
   return (
     <>
       
-      <PageBanner pageTitle={"Archive: "+archiveData.month+', '+archiveData.year} breadTitle={archiveData.month+', '+archiveData.year} bgImage={"/img/photo/12.jpg"} />
+    <PageBanner pageTitle={"Arşiv: "+archiveData.month+', '+archiveData.year} breadTitle={archiveData.month+', '+archiveData.year} bgImage={"/img/photo/12.jpg"} />
       
       {/* blog */}
       <section>
@@ -37,7 +37,7 @@ async function BlogArchive( { params } ) {
                       {/* filter */}
                       <div className="mil-filter mil-up mil-mb-90">
                           <div className="mil-filter-links">
-                              <Link href="/blog" className="mil-current">All</Link>
+                              <Link href="/blog" className="mil-current">Hepsi</Link>
                               {categories.map((item, key) => (
                               <Link key={`categories-item-${key}`} href={`/blog/category/${item.id}`}>{item.title}</Link>
                               ))}

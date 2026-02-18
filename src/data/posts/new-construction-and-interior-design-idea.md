@@ -1,30 +1,32 @@
 ---
 #preview
-title: 'New Construction and interior design idea'
+title: 'Yeni İnşaat ve İç Mekân Tasarımı Fikri'
 date: '2022-03-02'
-image: "/img/covers/7.jpg"
+image: "/img/bursa-unsplash-3.jpg"
 categories:
     - Technology
 tags:
     - Construction
     - Design
 author: Tamzyn French
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+short: Yeni inşaat projelerinde iç mekân tasarımı, yaşam kalitesini belirleyen temel unsurdur.
 
 #full details
-introTitle: New Construction and <span class="mil-accent">interior</span> design idea
+introTitle: Yeni İnşaat ve <span class="mil-accent">iç mekân</span> tasarımı fikri
 ---
 
-Gutem temporibus quae facilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+![Bursa](/img/bursa-unsplash-3.jpg)
 
-###### Voluptatem odit ullam veritatis
+Yeni inşaat projelerinde iç mekân tasarımı, yapının genel değerini belirleyen kritik bir katmandır. Doğru yerleşim, esnek kullanım ve doğal ışık yönetimi; yaşam kalitesini artırır.
 
-Omnis consectetur in libero! Quo animi minus sunt, excepturi inventore! Recusandae enim fugit saepe mollitia laboriosam minima sapiente laborum aspernatur ut! Voluptatibus tempora cupiditate nulla cum dicta odit unde eius sit molestias corrupti pariatur illum aspernatur blanditiis, dolor earum quidem incidunt eligendi magnam obcaecati iure quis corporis. Perspiciatis rem provident aliquid iusto temporibus, exercitationem voluptatibus accusamus amet ratione atque, dolor vel necessitatibus illo ipsa officia, sunt quia magni saepe velit ipsum sapiente blanditiis minima.
+###### Tasarımda öncelikler
 
-- Voluptate aspernatur
-- Fugiat asperiores
-- Doloremque quidem porro
-- Numquam porro sequi
-- Laudantium quis
+İlk aşamada kullanıcı profili ve kullanım senaryoları belirlenir. Açık plan yaşam alanları, sosyal etkileşimi artırırken; sessiz köşeler mahremiyet ihtiyacını karşılar. Malzeme seçimi ve akustik düzenleme de konforun temel parçalarıdır.
 
-Voluptatem odit ullam veritatis corrupti officia non aperiam eius vero amet, sed porro blanditiis, harum, quo fugit cupiditate. Maxime quaerat ratione
+- Akıllı depolama çözümleri
+- Gün ışığı ve gölgeleme dengesi
+- Dayanıklı ve sürdürülebilir malzemeler
+- Esnek ve modüler planlama
+- Enerji verimliliği odaklı sistemler
+
+Bu yaklaşım, hem bugünün ihtiyaçlarına cevap verir hem de yapının gelecekteki kullanımına uyum sağlar.

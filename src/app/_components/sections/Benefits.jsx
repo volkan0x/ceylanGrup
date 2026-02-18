@@ -10,20 +10,16 @@ const BenefitsSection = () => {
                 <div className="mil-background-grid mil-softened"></div>
                 <div className="row justify-content-between align-items-center">
                     <div className="col-xl-4">
-
                         <div className="mil-mb-90">
                             <span className="mil-suptitle mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.subtitle}} />
                             <h2 className="mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.title}} />
                             <p className="mil-up" dangerouslySetInnerHTML={{__html : Data.description}} />
                         </div>
-
                     </div>
                     <div className="col-xl-7">
-
                         <div className="row">
                             {Data.items.map((item, key) => (
                             <div className="col-md-6 col-lg-6" key={`benefits-item-${key}`}>
-
                                 <Link href={item.link} className="mil-service-card mil-up mil-mb-30">
                                     <div className="mil-center">
                                         <div className="mil-icon mil-icon-lg mil-mb-30">

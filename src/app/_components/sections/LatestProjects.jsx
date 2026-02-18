@@ -1,7 +1,7 @@
 import Data from "@data/sections/latest-projects.json";
 import Link from "next/link";
 
-const LatestProjectsSection = ( { projects } ) => {
+const LatestProjectsSection = async ( { projects } ) => {
     const projectRows0 = [];
 
     for (var i = 0; i < Data.numOfItems; i += 3 ) {
@@ -33,14 +33,14 @@ const LatestProjectsSection = ( { projects } ) => {
                         {projectRows.map((row, row_key) => (
                         <div className="col-md-6 col-lg-3" key={`projects-row-${row_key}`}>
                             {row.map((item, key) => (
-                            <Link href={`/projects/${item.id}`} key={`projects-item-${key}`} className={row.length == 2 ? "mil-portfolio-item mil-square-item mil-up mil-mb-30" : "mil-portfolio-item mil-long-item mil-up mil-mb-30"}>
+                            <div key={`projects-item-${key}`} className={row.length == 2 ? "mil-portfolio-item mil-square-item mil-up mil-mb-30" : "mil-portfolio-item mil-long-item mil-up mil-mb-30"}>
                                 <img src={item.image} alt={item.title} />
                                 <div className="mil-project-descr">
                                     <h4 className="mil-upper mil-mb-20">{item.title}</h4>
                                     <div className="mil-divider-sm mil-mb-20"></div>
                                     <p>{item.short}</p>
                                 </div>
-                            </Link>
+                            </div>
                             ))}
                         </div>
                         ))}

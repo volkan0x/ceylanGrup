@@ -21,11 +21,10 @@ async function Sidebar() {
     <>
         {/* sidebar */}
         <div className="mil-sidebar-frame">
-            <h6 className="mil-upper mil-up mil-mb-30">Media Info</h6>
+            <h6 className="mil-upper mil-up mil-mb-30">İletİşİm</h6>
 
             <ul className="mil-list mil-dark mil-up mil-mb-30">
-                <li className="mil-text-sm">media@ruizarch.com</li>
-                <li className="mil-text-sm">authors@ruizarch.com</li>
+                <li className="mil-text-sm">info@bursaceylangrup.com</li>
             </ul>
 
             <div className="mil-divider-lg mil-up mil-mb-30"></div>
@@ -36,7 +35,7 @@ async function Sidebar() {
             
             <div className="mil-divider-lg mil-up mil-mb-30"></div>
 
-            <h6 className="mil-upper mil-up mil-mb-30">Recent Posts</h6>
+            <h6 className="mil-upper mil-up mil-mb-30">Son Yazılar</h6>
             <ul className="mil-list mil-list-type-2 mil-dark mil-up mil-mb-30">
                 {posts.slice(0, 4).map((item, key) => (
                 <li key={`sidebar-posts-item-${key}`}>
@@ -48,19 +47,9 @@ async function Sidebar() {
 
             <div className="mil-divider-lg mil-up mil-mb-30"></div>
 
-            <h6 className="mil-upper mil-up mil-mb-30">Archives</h6>
-
-            <ul className="mil-list mil-dark mil-up mil-mb-30">
-                {archives.map((item, key) => (
-                <li className="mil-text-sm" key={`sidebar-archives-item-${key}`}>
-                    <Link href={`/blog/archive/${item.id}`}>{item.month}, {item.year}</Link>
-                </li>
-                ))}
-            </ul>
-
             <div className="mil-divider-lg mil-up mil-mb-30"></div>
 
-            <h6 className="mil-upper mil-up mil-mb-30">Tags</h6>
+            <h6 className="mil-upper mil-up mil-mb-30">Etiketler</h6>
 
             <ul className="mil-list mil-dark mil-up mil-mb-30">
                 {tags.map((item, key) => (
@@ -72,7 +61,7 @@ async function Sidebar() {
 
             <div className="mil-divider-lg mil-up mil-mb-30"></div>
 
-            <h6 className="mil-upper mil-up mil-mb-30">Authors</h6>
+            <h6 className="mil-upper mil-up mil-mb-30">Yazarlar</h6>
 
             <ul className="mil-list mil-dark mil-mb-30">
                 {authors.map((item, key) => (
@@ -85,7 +74,7 @@ async function Sidebar() {
 
             <div className="mil-divider-lg mil-up mil-mb-30"></div>
 
-            <h6 className="mil-upper mil-up mil-mb-30">Social Media</h6>
+            <h6 className="mil-upper mil-up mil-mb-30">Sosyal Medya</h6>
 
             <ul className="mil-list mil-dark mil-up">
                 {AppData.social.map((item, key) => (

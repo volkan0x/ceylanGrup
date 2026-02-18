@@ -1,4 +1,4 @@
 ---
 #preview
-title: Architecture
+title: Mimarlık
 ---

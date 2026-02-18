@@ -36,7 +36,7 @@ const SearchBarModule = () => {
         <div className="mil-sidebar-search mil-up mil-mb-30">
             <input 
                 type="text" 
-                placeholder="Search in blog ..."
+                placeholder="Blog içerisinde ara..."
                 value={search}
                 onChange={searchChangeHandler}
                 onKeyDown={searchPressHandler}

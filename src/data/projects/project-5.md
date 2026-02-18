@@ -1,7 +1,7 @@
 ---
 #preview
-title: Smart House by Molekule
-image: /img/covers/5.jpg
+title: Ceylan Plaza
+image: /img/CeylanPlaza.png
 category: Interior
 category_slug: interior
 date: may 24 2023
@@ -10,7 +10,7 @@ date: may 24 2023
 intro:
   subtitle: "Modern concept"
   title: "Smart House <br/><span class=\"mil-accent\">Interior</span>"
-  bgImage: "/img/covers/5.jpg"
+  bgImage: "/img/CeylanPlaza.png"
 
 description:
     heading:

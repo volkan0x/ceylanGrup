@@ -14,7 +14,7 @@ export async function generateMetadata({ params }) {
   const tagData = await getSingleTagData(params);
   
   return {
-    title: tagData.title + " | Blog",
+        title: tagData.title + " | Blog",
   }
 }
 
@@ -26,7 +26,7 @@ async function BlogTag( { params } ) {
   return (
     <>
       
-      <PageBanner pageTitle={"Tag: "+tagData.title} breadTitle={tagData.title} bgImage={"/img/photo/12.jpg"} />
+    <PageBanner pageTitle={"Etiket: "+tagData.title} breadTitle={tagData.title} bgImage={"/img/photo/12.jpg"} />
       
       {/* blog */}
       <section>
@@ -37,7 +37,7 @@ async function BlogTag( { params } ) {
                       {/* filter */}
                       <div className="mil-filter mil-up mil-mb-90">
                           <div className="mil-filter-links">
-                              <Link href="/blog" className="mil-current">All</Link>
+                              <Link href="/blog" className="mil-current">Hepsi</Link>
                               {categories.map((item, key) => (
                               <Link key={`categories-item-${key}`} href={`/blog/category/${item.id}`}>{item.title}</Link>
                               ))}

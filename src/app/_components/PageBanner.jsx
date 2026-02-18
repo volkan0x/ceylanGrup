@@ -23,7 +23,7 @@ const PageBanner = ({ pageTitle, breadTitle, bgImage }) => {
     const searchParams = useSearchParams();
     const query = searchParams.get('key');
     
-    pageTitle = 'Search: '+query;
+    pageTitle = 'Arama: '+query;
   }
   
   useEffect(() => {
@@ -46,7 +46,7 @@ const PageBanner = ({ pageTitle, breadTitle, bgImage }) => {
                   <div className="mil-mb-90">
                       <h1 className="mil-light mil-upper mil-mb-30" dangerouslySetInnerHTML={{__html : pageTitle}} />
                       <ul className="mil-breadcrumbs mil-center">
-                      <li><Link href="/">Home</Link></li>
+                      <li><Link href="/">Ana Sayfa</Link></li>
                       {asPath.indexOf('/blog/') != -1 && asPath.indexOf('/blog/page/') == -1 &&
                       <li>
                         <Link href="/blog">Blog</Link>
@@ -54,12 +54,12 @@ const PageBanner = ({ pageTitle, breadTitle, bgImage }) => {
                       }
                       {asPath.indexOf('/projects/') != -1 &&
                       <li>
-                        <Link href="/projects">Projects</Link>
+                        <Link href="/projects">Projeler</Link>
                       </li>
                       }
                       {asPath.indexOf('/services/') != -1 &&
                       <li>
-                        <Link href="/services">Services</Link>
+                        <Link href="/services">Hizmetler</Link>
                       </li>
                       }
                       <li><a dangerouslySetInnerHTML={{__html : clearBreadTitle}} /></li>

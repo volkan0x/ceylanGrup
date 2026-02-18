@@ -1,36 +1,32 @@
 ---
 #preview
-title: 'Design with community in mind'
+title: 'Toplum Odaklı Tasarım'
 date: '2022-02-02'
-image: "/img/covers/1.jpg"
+image: "/img/bursa-unsplash-2.jpg"
 categories:
     - Technology
 tags:
     - Design
     - UI
 author: Peter Stanbridge
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+short: Toplum odaklı tasarım; katılımcı planlama ve erişilebilir kamusal alanlar üretir.
 
 #full details
-introTitle: Design with <span class="mil-accent">community</span> in mind
+introTitle: Toplumu merkeze alan <span class="mil-accent">tasarım</span>
 ---
 
-Gutem temporibus quae facilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+![Bursa](/img/bursa-unsplash-2.jpg)
 
-###### Voluptatem odit ullam veritatis
+Toplum odaklı tasarım, kentsel ve mimari kararları yalnızca fiziksel ihtiyaçlara göre değil, sosyal bağları güçlendirecek şekilde kurgular. Katılım süreçleri, yerel ihtiyaçları görünür kılar ve tasarımın benimsenmesini artırır.
 
-Omnis consectetur in libero! Quo animi minus sunt, excepturi inventore! Recusandae enim fugit saepe mollitia laboriosam minima sapiente laborum aspernatur ut! Voluptatibus tempora cupiditate nulla cum dicta odit unde eius sit molestias corrupti pariatur illum aspernatur blanditiis, dolor earum quidem incidunt eligendi magnam obcaecati iure quis corporis. Perspiciatis rem provident aliquid iusto temporibus, exercitationem voluptatibus accusamus amet ratione atque, dolor vel necessitatibus illo ipsa officia, sunt quia magni saepe velit ipsum sapiente blanditiis minima.
+###### Neden önemli?
 
-- Voluptate aspernatur
-- Fugiat asperiores
-- Doloremque quidem porro
-- Numquam porro sequi
-- Laudantium quis
+Kamusal alanların erişilebilirliği, güvenliği ve konforu; şehirdeki yaşam kalitesini doğrudan etkiler. Tasarımın her aşamasında kullanıcı deneyimini merkeze almak, kapsayıcı bir şehir yaşamı yaratır.
 
-Voluptatem odit ullam veritatis corrupti officia non aperiam eius vero amet, sed porro blanditiis, harum, quo fugit cupiditate. Maxime quaerat ratione
+- Her yaş ve kullanıcı için erişilebilirlik
+- Güvenli ve aydınlık kamusal alanlar
+- Yerel kimliği yansıtan mekânlar
+- Sosyal etkileşimi artıran ortak alanlar
+- Yeşil altyapı ve iklim dayanıklılığı
 
-Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias eum inventore, minima distinctio laborum asperiores odio sit fuga rem, totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. **Repudiandae obcaecati** excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates nihil est ex perferendis eligendi laboriosam maxime placeat doloribus et reprehenderit beatae tempora numquam harum expedita! Amet at odit pariatur eum tenetur ratione
-
-> I don't know why we are here, but I'm pretty sure that it is not in order to enjoy ourselves.
-
-Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+Katılımcı yöntemler sayesinde proje hedefleri netleşir; kaynaklar daha verimli kullanılır. Böylece toplumun ihtiyaçlarına karşılık veren, uzun ömürlü ve sürdürülebilir çözümler ortaya çıkar.

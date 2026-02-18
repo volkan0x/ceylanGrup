@@ -12,11 +12,11 @@ const ContactForm = ( { subtitleOffset } ) => {
         validate = { values => {
             const errors = {};
             if (!values.email) {
-                errors.email = 'Required';
+                errors.email = 'Zorunlu';
             } else if (
                 !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
             ) {
-                errors.email = 'Invalid email address';
+                errors.email = 'Geçersiz e-posta adresi';
             }
             return errors;
         }}
@@ -39,19 +39,19 @@ const ContactForm = ( { subtitleOffset } ) => {
                 }
             }).then(response => {
                 if (response.ok) {
-                    status.innerHTML = "<h5>Thanks, your message is sent successfully.</h5>";
+                    status.innerHTML = "<h5>Teşekkürler, mesajınız başarıyla gönderildi.</h5>";
                     form.reset()
                 } else {
                     response.json().then(data => {
                         if (Object.hasOwn(data, 'errors')) {
                             status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
                         } else {
-                            status.innerHTML = "<h5>Oops! There was a problem submitting your form</h5>"
+                            status.innerHTML = "<h5>Üzgünüz, form gönderilirken bir sorun oluştu.</h5>"
                         }
                     })
                 }
             }).catch(error => {
-                status.innerHTML = "<h5>Oops! There was a problem submitting your form</h5>"
+                status.innerHTML = "<h5>Üzgünüz, form gönderilirken bir sorun oluştu.</h5>"
             });
 
             setSubmitting(false);
@@ -72,10 +72,10 @@ const ContactForm = ( { subtitleOffset } ) => {
                 <div className="col-lg-6">
 
                     <div className="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                        <label className="mil-upper"><span>Full Name</span><span className="mil-required">*</span></label>
+                        <label className="mil-upper"><span>Ad Soyad</span><span className="mil-required">*</span></label>
                         <input 
                             type="text" 
-                            placeholder="Enter Your Name Here"
+                            placeholder="Adınızı girin"
                             name="name" 
                             required="required" 
                             onChange={handleChange}
@@ -88,10 +88,10 @@ const ContactForm = ( { subtitleOffset } ) => {
                 <div className="col-lg-6">
 
                     <div className="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                        <label className="mil-upper"><span>Email address</span><span className="mil-required">*</span></label>
+                        <label className="mil-upper"><span>E-posta adresi</span><span className="mil-required">*</span></label>
                         <input 
                             type="email" 
-                            placeholder="Enter Your Email Here"
+                            placeholder="E-posta adresinizi girin"
                             name="email"
                             required="required"
                             onChange={handleChange}
@@ -104,10 +104,10 @@ const ContactForm = ( { subtitleOffset } ) => {
                 <div className="col-lg-6">
 
                     <div className="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                        <label className="mil-upper"><span>Phone</span><span className="mil-required">*</span></label>
+                        <label className="mil-upper"><span>Telefon</span><span className="mil-required">*</span></label>
                         <input 
                             type="tel" 
-                            placeholder="Enter Your Phone Here"
+                            placeholder="Telefon numaranızı girin"
                             name="tel"
                             required="required"
                             onChange={handleChange}
@@ -120,10 +120,10 @@ const ContactForm = ( { subtitleOffset } ) => {
                 <div className="col-lg-6">
 
                     <div className="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                        <label className="mil-upper"><span>Budget</span><span className="mil-required">*</span></label>
+                        <label className="mil-upper"><span>Bütçe</span><span className="mil-required">*</span></label>
                         <input 
                             type="text" 
-                            placeholder="Enter Your Budget Here"
+                            placeholder="Bütçenizi girin"
                             name="budget"
                             required="required"
                             onChange={handleChange}
@@ -136,9 +136,9 @@ const ContactForm = ( { subtitleOffset } ) => {
                 <div className="col-lg-12">
 
                     <div className="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                        <label className="mil-upper"><span>Message</span><span className="mil-required">*</span></label>
+                        <label className="mil-upper"><span>Mesaj</span><span className="mil-required">*</span></label>
                         <textarea 
-                            placeholder="Enter Your Name Here"
+                            placeholder="Mesajınızı yazın"
                             name="message" 
                             required="required"
                             onChange={handleChange}
@@ -152,13 +152,13 @@ const ContactForm = ( { subtitleOffset } ) => {
 
                     <div className="mil-checbox-frame mil-dark-input mil-up mil-mb-30">
                         <input defaultChecked className="mil-checkbox" id="checkbox-1" type="checkbox" value="value" namge="agree" required />
-                        <label htmlFor="checkbox-1" className="mil-text-sm">Accept the terms and conditions of personal data.</label>
+                        <label htmlFor="checkbox-1" className="mil-text-sm">Kişisel verilerimin işlenmesine ilişkin şartları kabul ediyorum.</label>
                     </div>
 
                 </div>
                 <div className="col-lg-12">
 
-                    <button type="submit" className="mil-button mil-up">Send Now</button>
+                    <button type="submit" className="mil-button mil-up">Gönder</button>
 
                 </div>
             </div>

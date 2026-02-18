@@ -1,6 +1,6 @@
 ---
 #preview
-title: Dental Clinic
+title: Ceylan Plus - Beşevler
 image: /img/covers/8.jpg
 category: Interior
 category_slug: interior

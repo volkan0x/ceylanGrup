@@ -1,9 +1,9 @@
 {
-    "title": "Ideas and News",
-    "subtitle": "Insights",
+    "title": "Blog",
+    "subtitle": "",
     "button": {
         "link": "/blog",
-        "button": "View all"
+        "button": "Tümünü Gör"
     },
     "numOfItems": 2
 }

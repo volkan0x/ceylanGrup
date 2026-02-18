@@ -12,7 +12,7 @@ const TeamMasonry = dynamic( () => import("@components/TeamMasonry"), { ssr: fal
 
 export const metadata = {
   title: {
-		default: "Team",
+    default: "Ekip",
 	},
   description: AppData.settings.siteDescription,
 }
@@ -22,7 +22,7 @@ async function Team() {
   
   return (
     <>
-      <PageBanner pageTitle={"Leadership"} breadTitle={"Team"} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={"Ekip"} breadTitle={"Ekip"} bgImage={"/img/photo/12.jpg"} />
          
       {/* team */}
       <section>
@@ -30,7 +30,7 @@ async function Team() {
             <div className="mil-background-grid mil-softened" />
 
             <div className="mil-center">
-                <p className="mil-text-lg mil-up mil-mb-90">It is a long established fact that a reader will be distracted <br/>by the readable content.</p>
+                <p className="mil-text-lg mil-up mil-mb-90">Güçlü bir ekip, projelerin her aşamasında kalite ve güveni birlikte üretir.</p>
             </div>
 
             <Suspense fallback={<div>Loading...</div>}>

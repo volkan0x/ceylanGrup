@@ -3,6 +3,17 @@ import Date from '@library/date';
 import Link from "next/link";
 
 const LatestPostsSection = ( { posts, paddingTop } ) => {
+    const translateCategory = (value) => {
+        const map = {
+            Architecture: "Mimarlık",
+            Design: "Tasarım",
+            Technology: "Teknoloji",
+            Urban: "Kentsel",
+            Interior: "İç Mekân",
+            Decor: "Dekor",
+        };
+        return map[value] || value;
+    };
     
     return (
         <>
@@ -33,7 +44,9 @@ const LatestPostsSection = ( { posts, paddingTop } ) => {
                                     <div className="mil-date"><Date dateString={item.date} /></div>
                                 </div>
                                 <div className="mil-description">
-                                    <span className="mil-suptitle mil-upper mil-up mil-mb-30">{item.category}</span>
+                                    <span className="mil-suptitle mil-upper mil-up mil-mb-30">
+                                        {translateCategory(item.category || (item.categories && item.categories[0]))}
+                                    </span>
                                     <h4 className="mil-upper mil-up mil-mb-30">{item.title}</h4>
                                     <p className="mil-up">{item.short}</p>
                                 </div>

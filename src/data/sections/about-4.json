@@ -1,7 +1,7 @@
 {
-    "title": "Years of Experience",
-    "subtitle": "Our Experts",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida.",
+    "title": "Yılların Deneyimi",
+    "subtitle": "Uzmanlarımız",
+    "description": "Tecrübe, kalite ve güveni bir araya getirerek uzun vadeli değer üreten projeler geliştiriyoruz.",
     "image": {
         "url": "/img/photo/14.jpg",
         "alt": "image"
@@ -9,12 +9,12 @@
     "avatar": {
         "image": "/img/faces/1.jpg",
         "name": "Joe French",
-        "subname": "Project Agent"
+        "subname": "Proje Sorumlusu"
     },
     "items": [
-        "1250 Projects Carried out Only in the EE.UU.",
-        "A Great Work Team Globally",
-        "+ 940 Projects Carried Out in the World",
-        "+ 100 Billion Invested in Projects"
+        "Sadece ABD’de 1250 proje",
+        "Küresel ölçekte güçlü ekip",
+        "Dünyada 940+ proje",
+        "Projelerde 100+ milyar yatırım"
     ]
 }

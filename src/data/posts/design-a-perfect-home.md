@@ -1,8 +1,8 @@
 ---
 #preview
-title: 'Design a perfect home'
+title: 'Mükemmel Bir Ev Tasarımı'
 date: '2022-04-02'
-image: "/img/covers/3.jpg"
+image: "/img/Bursa33.jpg"
 categories:
     - Urban
 tags:
@@ -11,28 +11,28 @@ tags:
     - Development
     - UI
 author: Charlie Williams
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+short: Mükemmel bir ev tasarımı; işlev, ışık, malzeme ve mekân akışını dengeli biçimde kurgulayarak huzurlu bir yaşam alanı sunar.
 
 #full details
-introTitle: Design a <span class="mil-accent">perfect</span> home
+introTitle: <span class="mil-accent">Mükemmel</span> bir ev tasarımı
 ---
 
-Are you passionate about design and interested in pursuing a career as a graphic designer? Graphic design is a dynamic field that combines creativity, technical skills, and a keen eye for aesthetics. Whether you're a beginner or someone looking to enhance their skills, this article will guide you through 10 simple steps to become a graphic designer.
+![Bursa](/img/Bursa33.jpg)
 
-> "Creativity is intelligence having fun." - Albert Einstein
+Mükemmel bir ev tasarımı, estetik kadar günlük yaşamın akışını da merkeze alır. Doğru planlama ile odalar arasında doğal bir bağlantı kurulur, ışık ve havalandırma dengelenir, depolama alanları görünmez şekilde çözülür. Böylece ev, sadece güzel görünen bir mekân değil, aynı zamanda rahat ve verimli bir yaşam alanı olur.
 
-##### Understand the Field
+##### Planlama ve mekân akışı
 
-Start by gaining a comprehensive understanding of what graphic design entails. Research the different types of graphic design, such as branding, web design, print design, and illustration. Explore the work of successful graphic designers and analyze their portfolios to learn about various design styles and techniques.
+İlk adım ihtiyaçların netleştirilmesidir. Aile büyüklüğü, yaşam alışkanlıkları ve çalışma–dinlenme dengesi belirlenir. Açık plan yaşam alanları sosyal etkileşimi artırırken, sessiz köşeler odaklanma ve dinlenme için ayrıcalıklı bir alan sağlar. Koridor ve geçiş alanlarının sadeleştirilmesi, metrekareyi daha verimli kullanmayı sağlar.
 
-##### Get a Design Education
+##### Işık ve malzeme dengesi
 
-While formal education is not always a requirement, it can provide you with a solid foundation and enhance your credibility as a graphic designer. Consider pursuing a degree or diploma in graphic design or a related field. Look for reputable design schools or online courses that offer comprehensive programs to learn both theory and practical skills.
+Doğal ışığın kontrollü kullanımı, evin ruhunu belirler. Büyük açıklıklar gün ışığını içeri alırken, doğru perdeleme ve gölgeliklerle konfor korunur. Zemin, duvar ve mobilya malzemelerinde dayanıklılık–doku dengesi önemlidir; sıcak ahşap yüzeyler, nötr tonlarla birlikte mekâna sakinlik kazandırır.
 
-##### Build Your Portfolio
+##### Depolama ve düzen
 
-Your portfolio is your calling card as a graphic designer. Compile a collection of your best design projects to showcase your abilities and style. Include a variety of work, such as logos, brochures, websites, or illustrations, to demonstrate your versatility. Constantly update your portfolio as you complete new projects or improve existing ones.
+Gizli depolama, düzenli ve ferah bir görünümün anahtarıdır. Gömme dolaplar, çok amaçlı mobilyalar ve niş çözümleri; dağınıklığı azaltır ve yaşam alanını geniş gösterir. İşlevsellik arttıkça evin kullanımı kolaylaşır.
 
-##### Gain Practical Experience
+##### Son dokunuşlar
 
-To become a successful graphic designer, practical experience is crucial. Seek internships, freelance opportunities, or entry-level positions to gain hands-on experience in the field. This will allow you to apply your skills in real-world scenarios, understand client requirements, work with deadlines, and collaborate with others in a professional environment.
+Aydınlatma katmanları (genel, görev ve vurgu ışığı) mekâna derinlik verir. Bitkiler, tekstiller ve kişisel objeler ise evin karakterini oluşturur. Bu adımlar, tasarımın sadece “şık” değil, “yaşanabilir” olmasını sağlar.

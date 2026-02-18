@@ -1,6 +1,10 @@
-import { parseISO, format } from 'date-fns'
-
 export default function Date({ dateString }) {
-  const date = parseISO(dateString)
-  return <time dateTime={dateString}>{format(date, 'dd.MM.yyyy')}</time>
+  if (!dateString) {
+    return <time />;
+  }
+
+  const parts = dateString.split('-');
+  const formatted = parts.length === 3 ? `${parts[2]}.${parts[1]}.${parts[0]}` : dateString;
+
+  return <time dateTime={dateString}>{formatted}</time>;
 }

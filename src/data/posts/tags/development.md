@@ -1,4 +1,4 @@
 ---
 #preview
-title: Development
+title: Geliştirme
 ---

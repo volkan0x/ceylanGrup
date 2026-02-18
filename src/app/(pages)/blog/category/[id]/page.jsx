@@ -25,7 +25,7 @@ async function BlogCategory( { params } ) {
   return (
     <>
       
-      <PageBanner pageTitle={"Category: "+categoryData.title} breadTitle={categoryData.title} bgImage={"/img/photo/12.jpg"} />
+    <PageBanner pageTitle={"Kategori: "+categoryData.title} breadTitle={categoryData.title} bgImage={"/img/photo/12.jpg"} />
       
       {/* blog */}
       <section>
@@ -36,7 +36,7 @@ async function BlogCategory( { params } ) {
                       {/* filter */}
                       <div className="mil-filter mil-up mil-mb-90">
                           <div className="mil-filter-links">
-                              <Link href="/blog">All</Link>
+                              <Link href="/blog">Hepsi</Link>
                               {categories.map((item, key) => (
                               <Link key={`categories-item-${key}`} href={`/blog/category/${item.id}`} className={item.id == params.id ? "mil-current": ""}>{item.title}</Link>
                               ))}

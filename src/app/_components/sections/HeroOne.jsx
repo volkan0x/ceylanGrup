@@ -26,7 +26,10 @@ const HeroOne = () => {
                                 <div className="mil-mb-90">
                                     <span className="mil-suptitle mil-light mil-upper mil-mb-60">{Data.subtitle}</span>
                                     <h1 className="mil-upper mil-light mil-mb-60" dangerouslySetInnerHTML={{__html : Data.title}} />
-                                    <Link href={Data.button.link} className="mil-link mil-light mil-upper">{Data.button.label} <span className="mil-arrow"><img src="img/icons/1.svg" alt="arrow" /></span></Link>
+                                    {Data.description && (
+                                        <div className="mil-light mil-mb-40" dangerouslySetInnerHTML={{__html : Data.description}} />
+                                    )}
+                                    <Link href={Data.button.link} className="mil-link mil-light mil-upper">{Data.button.label}</Link>
                                 </div>
                             </div>
                             <div className="col-xl-5">

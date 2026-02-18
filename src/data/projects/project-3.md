@@ -1,7 +1,7 @@
 ---
 #preview
-title: Kemia Industrial Factory
-image: /img/covers/3.jpg
+title: Ceylan Nİrvana
+image: /img/CeylanNirvana.jpg
 category: Architecture
 category_slug: architecture
 date: may 24 2023

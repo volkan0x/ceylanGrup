@@ -1,8 +1,8 @@
 ---
 #preview
-title: 'The Infrastructure That Powers The World'
+title: 'Bursa Hakkında DAha fazla'
 date: '2022-01-02'
-image: "/img/covers/2.jpg"
+image: "/img/Bursa4.jpg"
 categories:
     - Architecture
 tags:
@@ -11,28 +11,22 @@ tags:
     - Development
     - UI
 author: Peter Stanbridge
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+short: Bursa’nın tarihi, doğası ve yaşam kültürü hakkında kısa bir özet.
 
 #full details
-introTitle: The Infrastructure <br> that <span class="mil-accent">Powers</span> the <br>World
+introTitle: Dünyayı <span class="mil-accent">ayakta</span><br>tutan altyapı
 ---
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+## Bursa Hakkında
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+Bursa, Türkiye'nin kuzeybatısında, Marmara Denizi'nin güneydoğusunda yer alır. Uludağ'ın etkisiyle ılıman bir iklime sahip olan şehir, hem tarihi hem de doğal güzellikleriyle öne çıkar. Osmanlı Devleti’nin ilk başkenti olması nedeniyle çok sayıda tarihî eser barındırır.
 
-- Donec arcu lacus, ornare eget ligula vel, commodo luctus felis.
-- Ut dignissim sapien sit amet molestie rutrum.
-- Orci varius natoque penatibus et magnis dis parturient montes.
-- Ut at nulla ut libero mollis viverra sed vitae purus.
+![Bursa](/img/Bursa4.jpg)
 
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+## Bursa’da Yaşam
 
-![photo](/img/photo/6.jpg)
+Bursa’da yaşam; kültür, doğa ve şehir olanaklarının dengeli birleşimiyle şekillenir. Şehir içi ulaşımda metro, tramvay, otobüs ve teleferik seçenekleri bulunur. Günlük yaşam, tarihi merkezlerden modern yerleşimlere kadar geniş bir yelpazede sürer.
 
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+## Bursa’nın Mutfağı
 
-> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
-> `Jane Meldrum`
-
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+Bursa denince akla ilk gelen lezzet Bursa İskender Kebap’tır. Şehir ayrıca kestane şekeri ve yöresel hamur işleriyle de meşhurdur. Yerel mutfak, Marmara Bölgesi’nin zengin tarım ürünleriyle beslenir.

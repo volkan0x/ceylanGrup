@@ -1,21 +1,5 @@
 {
-    "title": "What We Do",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "items": [
-        {
-            "title": "Architecture",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ultrices gravida.",
-            "link": "/services/service-1"
-        },
-        {
-            "title": "Interior Design",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ultrices gravida.",
-            "link": "/services/service-2"
-        },
-        {
-            "title": "Planning",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ultrices gravida.",
-            "link": "/services/service-3"
-        }
-    ]
+    "title": "Hakkımızda",
+    "description": "<p>Firmalarımız NİYAZİ CEYLAN İNŞAAT LTD.ŞTİ. ve CEYMEN TEKNİK YAPI İNŞAAT LTD. ŞTİ. olarak inşaat sektöründe uzun süreli geçmişe sahiptir. Geçmişten bu güne inşa edilen çok sayıda projelerimiz mevcuttur.</p><p>İzlenilen yöntemlerimiz ve gerçekleştirilen projelerimiz de, yalnızca müteahhitlik alanın da değil, diğer taahhüt, dekorasyon, taşeronluk alanlarında da faaliyet göstermekte olup ekonomik ve sorunsuz hizmet sunmayı amaçlamaktadır.</p><p>Güvenilir ve dürüst çalışma ilkeleriyle sektöründe aranılan isimlerden olmak. Yaptığı tüm projeleri kaliteli, sorunsuz ve zamanında yerine getirerek, en mükemmel sonuca ulaştırarak yapıcı kimliğini ön plana çıkarmak firmamızın dikkat ettiği unsurdur.</p><p>Sektörle ilgili teknik ve idari şartnamelere, uygun hizmet verebilmek amacıyla güncel bilgileri takip etmektedir.</p><p>Bir projenin başarısındaki en vazgeçilmez unsurun insan faktörü olduğunun bilinciyle, tecrübelerini işe adamış personelinin yaşam kalitesine değer katmayı ilke edinerek inşaat dünyasındaki her türlü yeniliği üretiminin tüm alanlarına yansıtarak doğaya zarar vermeden şekillendirip, insanlığın hizmetine en verimli ve temiz şekilde sunmaktadır.</p><p>Kurumsal mükemmelliğin ön koşulu olan ekip mükemmelliği ile birlikte inşaat konusunda Bursa‘da verdiğimiz hizmetlerin gelişimini ve sürekliliğini sağlamak için özel sektör hizmet alanlarında küresel yetenek ve bilgilerimizi sunmaktayız.</p>",
+    "items": []
 }

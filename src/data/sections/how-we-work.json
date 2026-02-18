@@ -1,21 +1,21 @@
 {
-    "title": "This is How Magic Happens",
-    "subtitle": "How We Work",
+    "title": "Sihir böyle gerçekleşiyor",
+    "subtitle": "Nasıl Çalışıyoruz",
     "items": [
         {
-            "title": "High Efficiency",
+            "title": "Yüksek Verimlilik",
             "icon": "/img/icons/7.svg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+            "text": "Süreçlerimizi planlı ilerletir, zaman ve maliyet verimliliğini en üst düzeyde tutarız."
         },
         {
-            "title": "Team of Experts",
+            "title": "Uzman Ekip",
             "icon": "/img/icons/8.svg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+            "text": "Disiplinler arası ekibimizle proje ihtiyaçlarını hızlı ve doğru şekilde çözümleriz."
         },
         {
-            "title": "Technology",
+            "title": "Teknoloji",
             "icon": "/img/icons/9.svg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+            "text": "Güncel yazılım ve uygulama yöntemleriyle kaliteyi sürdürülebilir kılarız."
         }
     ]
 }

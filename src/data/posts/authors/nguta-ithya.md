@@ -1,5 +1,5 @@
 ---
 #preview
-title: Nguta Ithya
+title: Ayşe Demir
 avatar: /img/faces/4.jpg
 ---

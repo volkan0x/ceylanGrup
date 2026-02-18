@@ -1,23 +1,23 @@
 {
-    "title": "We provide services <span class=\"mil-marker\">and</span> solutions",
-    "subtitle": "Our Company",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "title": "Hizmet <span class=\"mil-marker\">ve</span> çözümler sunuyoruz",
+    "subtitle": "Şirketimiz",
+    "description": "Mimarlık ve inşaat alanında bütüncül çözümler üretir, projelerin her aşamasını planlı ve şeffaf bir şekilde yönetiriz.",
     "signature": {
         "name": "Jane Meldrum",
-        "subname": "CEO of Ruizarch",
+        "subname": "Ceylan Grup CEO",
         "text": "J.meldrum"
     },
     "links": [
         {
-            "title": "Morphological Thinking",
+            "title": "Morfolojik Düşünme",
             "link": "/services/service-1"
         },
         {
-            "title": "Creative Architectural",
+            "title": "Yaratıcı Mimari",
             "link": "/services/service-2"
         },
         {
-            "title": "Planning Designs",
+            "title": "Planlama Tasarımları",
             "link": "/services/service-3"
         }
     ],

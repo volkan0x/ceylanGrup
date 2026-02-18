@@ -65,8 +65,8 @@ const TestimonialSlider = ( { showPartners = 1 } ) => {
                       </Swiper>
 
                       <div className="mil-nav-buttons mil-reviews-nav mil-up">
-                          <div className="mil-slider-button mil-process-prev">Prev</div>
-                          <div className="mil-slider-button mil-process-next">Next</div>
+                          <div className="mil-slider-button mil-process-prev">Önceki</div>
+                          <div className="mil-slider-button mil-process-next">Sonraki</div>
                       </div>
 
                   </div>

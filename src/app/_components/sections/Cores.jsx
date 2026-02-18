@@ -14,8 +14,10 @@ const CoresSection = () => {
   return (
     <>
         {/* cores */}
-        <section className="mil-dark-bg mil-relative mil-o-hidden">
-            <img src={Data.bg_image} className="mil-bg-img mil-scale" alt="image" style={{"objectPosition": "top"}} data-value-1="1" data-value-2="1.2" />
+        <section className="mil-dark-bg mil-relative mil-o-hidden" style={{ backgroundColor: "#2c2c2c" }}>
+            {Data.bg_image && (
+                <img src={Data.bg_image} className="mil-bg-img mil-scale" alt="image" style={{"objectPosition": "top"}} data-value-1="1" data-value-2="1.2" />
+            )}
             <div className="mil-overlay" />
 
             <div className="container mil-p-120-90">
@@ -45,7 +47,13 @@ const CoresSection = () => {
                                     <div className="mil-minus">-</div>
                                 </div>
 
-                                <h6 className="mil-upper mil-light">{item.title}</h6>
+                                <div className="mil-accordion-title">
+                                    {item.image && (
+                                        <img src={item.image} className="mil-accordion-logo" alt={`${item.title} logo`} />
+                                    )}
+
+                                    <h6 className="mil-upper mil-light">{item.title}</h6>
+                                </div>
 
                             </div>
                             <div className="mil-accordion-content">

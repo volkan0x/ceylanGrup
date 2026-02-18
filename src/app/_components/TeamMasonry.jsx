@@ -49,7 +49,7 @@ const TeamMasonry = ({ team, categories }) => {
         {/* filter */}
         <div className="mil-filter mil-up mil-mb-90">
             <div className="mil-filter-links">
-                <a href="#" data-filter="*" className="mil-current" onClick={ (e) => handleFilterKeyChange("*", e)}>All</a>
+                <a href="#" data-filter="*" className="mil-current" onClick={ (e) => handleFilterKeyChange("*", e)}>Hepsi</a>
                 {categories.map((item, key) => (
                 <a href="#" data-filter={`${item.slug}`} key={`team-filter-item-${key}`} onClick={(e) => handleFilterKeyChange(item.slug, e)}>{item.name}</a>
                 ))}
