@@ -16,7 +16,7 @@ const KvkkPage = () => {
       <PageBanner
         pageTitle={"Kişisel Verilerin Korunması"}
         breadTitle={"KVKK"}
-        bgImage={"/img/photo/12.jpg"}
+        bgImage={"/img/photo/CeylanGrup.jpg"}
       />
 
       <section>

@@ -16,9 +16,8 @@ const NewsletterPage = () => {
       <PageBanner
         pageTitle={"E‑Bülten"}
         breadTitle={"E‑Bülten"}
-        bgImage={"/img/photo/12.jpg"}
+        bgImage={"/img/CeylanPlus.jpg"}
       />
-
       <section>
         <div className="container mil-p-120-90">
           <div className="mil-background-grid mil-softened" />

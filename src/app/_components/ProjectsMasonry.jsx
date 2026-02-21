@@ -61,7 +61,7 @@ const ProjectsMasonry = ({ projects, categories }) => {
         {/* filter */}
         <div className="mil-filter mil-up mil-mb-90">
             <div className="mil-filter-links">
-                <a href="#" data-filter="*" className="mil-current" onClick={ (e) => handleFilterKeyChange("*", e)}>Hepsi</a>
+                <a href="#" data-filter="*" className="mil-current" onClick={ (e) => handleFilterKeyChange("*", e)}>Hepsİ</a>
                 {categories.map((item, key) => (
                 <a href="#" data-filter={`${item.slug}`} key={`projects-filter-item-${key}`} onClick={(e) => handleFilterKeyChange(item.slug, e)}>
                     {item.name === "Architecture" ? "Müteahhİtlİk" : item.name === "Interior" ? "Taahhüt" : item.name}

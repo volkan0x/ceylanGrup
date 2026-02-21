@@ -29,7 +29,7 @@
                         "link": "/hakkimizda"
                     },
                     {
-                        "label": "Kişisel Verilerin Korunması",
+                        "label": "Kişisel Verİlerİn Korunması",
                         "link": "/kisisel-verilerin-korunmasi"
                     }
                 ]
@@ -82,11 +82,11 @@
     "projects": {
         "categories": [
             {
-                "name": "Mimarlık",
+                "name": "MÜteahhİtlİk",
                 "slug": "architecture"
             },
             {
-                "name": "İç Mekân",
+                "name": "TaahhütlÜk",
                 "slug": "interior"
             }
         ]

@@ -14,7 +14,7 @@ const DigitalCatalogPage = () => (
     <PageBanner
       pageTitle="Dijital Katalog"
       breadTitle="Dijital Katalog"
-      bgImage="/img/photo/CeylanGrup2.jpg"
+      bgImage="/img/TimeOzluce.jpg"
     />
 
     <section className="mil-soft-bg">
