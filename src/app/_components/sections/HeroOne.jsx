@@ -7,6 +7,14 @@ import { useEffect } from "react";
 import { ScrollAnimation } from "@common/scrollAnims";
 
 const HeroOne = () => {
+    const investmentLogos = [
+        { src: "/img/logo/AlbaCeylan.png", alt: "Alba Ceylan" },
+        { src: "/img/logo/Ceymen.png", alt: "Ceymen" },
+        { src: "/img/logo/Enkule.png", alt: "Enkule" },
+        { src: "/img/logo/NCeylanInsaat.png", alt: "N Ceylan İnşaat" },
+        { src: "/img/logo/NizamCeylan.png", alt: "Nizam Ceylan" }
+    ];
+
     useEffect(() => {
         ScrollAnimation();
     }, []);
@@ -16,11 +24,17 @@ const HeroOne = () => {
             {/* banner */}
             <section className="mil-banner">
                 <img src={Data.bg_image} className="mil-bg-img mil-scale" data-value-1=".4" data-value-2="1.4" alt="image" />
-                
                 <div className="mil-overlay" />
                 <div className="container">
                     <div className="mil-background-grid mil-top-space" />
                     <div className="mil-banner-content">
+                        <div className="mil-hero-logos">
+                            {investmentLogos.map((logo) => (
+                                <span className="mil-hero-logo-button" key={logo.src}>
+                                    <img src={logo.src} alt={logo.alt} />
+                                </span>
+                            ))}
+                        </div>
                         <div className="row align-items-end">
                             <div className="col-xl-7">
                                 <div className="mil-mb-90">

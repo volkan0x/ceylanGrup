@@ -330,10 +330,52 @@ counters
     }
 }
 
+.mil-hero-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    & img {
+        width: 120px;
+        height: auto;
+        filter: none;
+    }
+}
+
 .mil-infinite-show {
     & .swiper-wrapper {
         align-items: center;
         transition-timing-function: linear;
+    }
+}
+
+.mil-partners-marquee {
+    overflow: hidden;
+    width: 100%;
+}
+
+.mil-partners-track {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: max-content;
+    animation: mil-partners-marquee 20s linear infinite;
+    will-change: transform;
+}
+
+@keyframes mil-partners-marquee {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
     }
 }
 
@@ -345,6 +387,14 @@ counters
     & img {
         margin-top: 5px;
         width: 150px;
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+    }
+
+    &:hover {
+        & img {
+            filter: grayscale(0%);
+        }
     }
 }
 

@@ -1,9 +1,6 @@
 "use client";
 
-import { SliderProps } from "@common/sliderProps";
-import { Swiper, SwiperSlide } from "swiper/react";
-
-import Data from '@data/sliders/partners';
+import Data from "@data/sliders/partners";
 
 const PartnersSlider = ( { bgStyle } ) => {
   return (
@@ -16,17 +13,15 @@ const PartnersSlider = ( { bgStyle } ) => {
         
         <div className="container mil-p-120-120">
             <div className="mil-background-grid mil-softened" />
-            
-            <Swiper
-                {...SliderProps.milInfiniteSlider}
-                className="swiper-container mil-infinite-show mil-up"
-            >
-                {Data.items.map((item, key) => (
-                <SwiperSlide className="swiper-slide" key={`partners-slider-item-${key}`}>
-                    <a href={item.link} className="mil-partner-frame"><img src={item.image} alt={item.alt} /></a>
-                </SwiperSlide>
-                ))}
-            </Swiper>
+            <div className="mil-partners-marquee mil-up">
+                <div className="mil-partners-track">
+                    {[...Data.items, ...Data.items].map((item, key) => (
+                        <div className="mil-partner-frame" key={`partners-slider-item-${key}`}>
+                            <img src={item.image} alt={item.alt} />
+                        </div>
+                    ))}
+                </div>
+            </div>
         </div>
     </div>
     {/* partners end */}

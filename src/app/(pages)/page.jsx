@@ -32,7 +32,7 @@ async function Home1() {
   return (
     <>
       <HeroOneSection />
-      {/* <PartnersSlider /> */}
+      <PartnersSlider />
       <AboutSection />
       <IdeasSection />
       <ServicesSection />

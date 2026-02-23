@@ -42,15 +42,27 @@ import "swiper/css/pagination";
 
 export const SliderProps = {
   milInfiniteSlider: {
-    slidesPerView: 1,
-    spaceBetween: 0,
-    speed: 4000,
-    autoplay: true,
+    slidesPerView: "auto",
+    spaceBetween: 30,
+    speed: 6000,
     autoplay: {
-        delay: 0,
+      delay: 0,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: false,
+      stopOnLastSlide: false,
+      waitForTransition: false,
     },
     loop: true,
-    freeMode: true,
+    freeMode: {
+      enabled: true,
+      momentum: false,
+      momentumBounce: false,
+    },
+    watchSlidesProgress: true,
+    loopAdditionalSlides: 20,
+    loopedSlides: 20,
+    allowTouchMove: false,
+    simulateTouch: false,
     breakpoints: {
         768: {
             slidesPerView: 2,
