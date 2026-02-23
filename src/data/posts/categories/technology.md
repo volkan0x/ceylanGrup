@@ -1,4 +1,4 @@
 ---
 #preview
-title: Teknoloji
+title: Teknolojİ
 ---

@@ -1,7 +1,7 @@
 {
     "settings": {
         "siteName": "Ceylan Grup",
-        "siteDescription": "Mimarlık ve inşaat çözümleri",
+        "siteDescription": "Mİmarlık ve inşaat çözümleri",
         "formspreeURL": "https://formspree.io/f/your_api_key",
         "mailchimp": {
             "url": "",

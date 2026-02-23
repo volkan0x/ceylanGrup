@@ -15,7 +15,7 @@ async function PostsDetail( { params } ) {
   const authorData = await getSingleAuthorData(postData.author.toLowerCase().replace(' ', '-'));
     const translateCategory = (value) => {
         const map = {
-            Architecture: "Mimarlık",
+            Architecture: "Mİmarlık",
             Design: "Tasarım",
             Technology: "Teknoloji",
             Urban: "Kentsel",

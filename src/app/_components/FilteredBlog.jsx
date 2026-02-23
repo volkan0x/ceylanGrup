@@ -8,7 +8,7 @@ import { useSearchParams } from 'next/navigation'
 async function FilteredBlogPosts( { posts } ) {
     const translateCategory = (value) => {
         const map = {
-            Architecture: "Mimarlık",
+            Architecture: "Mİmarlık",
             Design: "Tasarım",
             Technology: "Teknoloji",
             Urban: "Kentsel",
@@ -41,7 +41,10 @@ async function FilteredBlogPosts( { posts } ) {
                     {searchResults.map((item, index) => (
                     <Link href={`/blog/${item.id}`} className="mil-blog-card mil-mb-60" key={`blog-post-${index}`}>
                         <div className="mil-cover mil-square mil-up">
-                            <img src={item.image} alt={item.title} />
+                            <img
+                                src={item.id === "tips-for-planning-a-project" ? "/img/Bursa.avif" : item.image}
+                                alt={item.title}
+                            />
                             <div className="mil-date"><Date dateString={item.date} /></div>
                         </div>
                         <div className="mil-description">

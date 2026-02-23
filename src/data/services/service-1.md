@@ -34,7 +34,7 @@ sidebar:
       content:
         - İş Yeri Danışmanlığı
         - 3D Modelleme Planlama
-        - Mimarlık
+        - Mİmarlık
 
     - layout: list
       title: Sürdürülebilirlik ve Sağlık

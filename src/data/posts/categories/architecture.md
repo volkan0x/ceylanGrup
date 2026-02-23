@@ -1,4 +1,4 @@
 ---
 #preview
-title: Mimarlık
+title: Mİmarlık
 ---

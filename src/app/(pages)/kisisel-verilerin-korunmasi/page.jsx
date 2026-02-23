@@ -5,7 +5,7 @@ import PageBanner from "@components/PageBanner";
 
 export const metadata = {
   title: {
-    default: "Kişisel Verilerin Korunması",
+    default: "Kİşİsel Verilerin Korunması",
   },
   description: AppData.settings.siteDescription,
 };
@@ -14,7 +14,7 @@ const KvkkPage = () => {
   return (
     <>
       <PageBanner
-        pageTitle={"Kişisel Verilerin Korunması"}
+        pageTitle={"Kİşİsel Verİlerİn Korunması"}
         breadTitle={"KVKK"}
         bgImage={"/img/photo/CeylanGrup.jpg"}
       />

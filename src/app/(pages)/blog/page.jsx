@@ -41,7 +41,7 @@ async function Blog() {
                       {/* filter */}
                       <div className="mil-filter mil-up mil-mb-90">
                           <div className="mil-filter-links">
-                              <Link href="/blog" className="mil-current">Hepsi</Link>
+                              <Link href="/blog" className="mil-current">Hepsİ</Link>
                               {categories.map((item, key) => (
                               <Link key={`categories-item-${key}`} href={`/blog/category/${item.id}`}>{item.title}</Link>
                               ))}
