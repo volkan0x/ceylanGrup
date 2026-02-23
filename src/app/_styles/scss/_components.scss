@@ -1190,7 +1190,7 @@ footer {
                     transition: $t-sm;
 
                     &:hover {
-                        color: $accent;
+                        color: #bdbdbd;
                     }
                 }
 
@@ -1229,7 +1229,7 @@ footer {
                         color: $dark;
 
                         &:hover {
-                            color: $accent;
+                            color: #bdbdbd;
                         }
                     }
                 }
@@ -1268,7 +1268,7 @@ footer {
                 transition: $t-sm;
 
                 &:hover {
-                    color: $accent !important;
+                    color: $dark !important;
                 }
             }
         }
@@ -1368,7 +1368,8 @@ top panel
                     transition: $t-sm;
 
                     &:hover {
-                        color: $accent;
+                        color: #5f5f5f !important;
+                        background-color: #e0e0e0;
                     }
                 }
 
@@ -1419,6 +1420,7 @@ top panel
                                 color: $dark;
 
                                 &:hover {
+                                    color: #5f5f5f;
                                     transform: translateX(5px)
                                 }
                             }
@@ -1484,7 +1486,7 @@ top panel
                         padding: 0 15px;
 
                         &:hover {
-                            color: $dark;
+                            color: #5f5f5f !important;
                         }
                     }
 
@@ -2539,7 +2541,7 @@ filter
 
     & .mil-filter-links {
         position: relative;
-        background-color: $light;
+        background-color: transparent;
         padding: 0 20px;
 
         & a {
@@ -2551,7 +2553,7 @@ filter
             color: $dark;
 
             &.mil-current {
-                background-color: $accent;
+                background-color: #cfcfcf;
             }
 
             &:last-child {

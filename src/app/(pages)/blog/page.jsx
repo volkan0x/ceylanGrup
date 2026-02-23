@@ -28,7 +28,7 @@ async function Blog() {
 
   return (
     <>
-      <PageBanner pageTitle={"Blog"} breadTitle={"Blog"} bgImage={"/img/blog.jpg"} />
+      <PageBanner pageTitle={"Blog"} breadTitle={"Blog"} bgImage={"/img/CeylanPlus5.jpg"} />
 
       {/* blog */}
       <section>

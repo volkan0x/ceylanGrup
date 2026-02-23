@@ -434,7 +434,7 @@ link
         margin-left: 15px;
         width: 40px;
         height: 40px;
-        background-color: $accent;
+        background-color: #e0e0e0;
         border: 1px solid transparent;
         display: flex;
         justify-content: center;
@@ -442,7 +442,7 @@ link
         transition: $t-sm;
 
         &.mil-light {
-            background-color: $light;
+            background-color: #e0e0e0;
             border-color: #fff;
         }
     }
@@ -506,7 +506,8 @@ button
     }
 
     &:hover {
-        filter: brightness(110%);
+        background-color: #e0e0e0;
+        color: $dark;
     }
 }
 
@@ -526,7 +527,7 @@ button
     transition: $t-sm;
 
     &:hover {
-        background-color: $accent;
+        background-color: #e0e0e0;
     }
 }
 
@@ -553,7 +554,7 @@ breadcrumbs
             transition: $t-sm;
 
             &:hover {
-                color: $accent;
+                color: $dark;
             }
         }
 
@@ -595,7 +596,7 @@ list
             transition: $t-md;
 
             &:hover {
-                color: $accent;
+                color: $dark;
             }
         }
     }
