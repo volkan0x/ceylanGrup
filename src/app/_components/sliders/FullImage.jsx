@@ -7,7 +7,7 @@ const FullImageSlider = ( { items } ) => {
   return (
     <>
         {/* full image slider */}
-        <div className="mil-illustration-slider-frame mil-up">
+        <div className="mil-illustration-slider-frame mil-up mil-fullscreen-gallery">
             <Swiper
                 {...SliderProps.milIllustrationSlider}
                 className="swiper-container mil-illustration-slider"
@@ -27,8 +27,14 @@ const FullImageSlider = ( { items } ) => {
             <div className="container">
                 <div className="mil-illustration-slider-nav mil-up">
                     <div className="mil-nav-buttons">
-                        <div className="mil-slider-button mil-illustration-prev">Önceki</div>
-                        <div className="mil-slider-button mil-illustration-next">Sonraki</div>
+                        <div className="mil-slider-button mil-illustration-prev">
+                            <span className="mil-arrow mil-arrow-left"><img src="/img/icons/1.svg" alt="arrow" /></span>
+                            Önceki
+                        </div>
+                        <div className="mil-slider-button mil-illustration-next">
+                            Sonraki
+                            <span className="mil-arrow mil-arrow-right"><img src="/img/icons/1.svg" alt="arrow" /></span>
+                        </div>
                     </div>
                 </div>
             </div>

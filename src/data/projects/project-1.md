@@ -44,14 +44,35 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/1.jpg
-    alt: image
+  - image: /img/logo/CeylanNest/CeylanNest1.jpg
+    alt: Ceylan Nest
 
-  - image: /img/covers/2.jpg
-    alt: image
+  - image: /img/logo/CeylanNest/CeylanNest2.jpg
+    alt: Ceylan Nest
 
-  - image: /img/covers/4.jpg
-    alt: image
+  - image: /img/logo/CeylanNest/CeylanNest3.jpg
+    alt: Ceylan Nest
+
+  - image: /img/logo/CeylanNest/CeylanNest4.jpg
+    alt: Ceylan Nest
+
+  - image: /img/logo/CeylanNest/CeylanNest5.jpg
+    alt: Ceylan Nest
+
+  - image: /img/logo/CeylanNest/CeylanNest7.jpg
+    alt: Ceylan Nest
+
+  - image: /img/logo/CeylanNest/CeylanNest8.jpg
+    alt: Ceylan Nest
+
+  - image: /img/logo/CeylanNest/CeylanNest9.jpg
+    alt: Ceylan Nest
+
+  - image: /img/logo/CeylanNest/CeylanNest10.jpg
+    alt: Ceylan Nest
+
+  - image: /img/logo/CeylanNest/CeylanNest16.jpg
+    alt: Ceylan Nest
 
 resume:
   title: Resume

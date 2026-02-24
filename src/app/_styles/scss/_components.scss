@@ -287,9 +287,26 @@ slider navigation
             color: $accent;
         }
 
+        &.mil-illustration-prev:hover {
+            color: $gs-10;
+        }
+
         &.swiper-button-disabled {
             color: $dt-10;
             cursor: not-allowed;
+        }
+        & .mil-arrow-left,
+        & .mil-arrow-right {
+            margin: 0 8px;
+
+            & img {
+                width: 12px;
+                height: 12px;
+            }
+        }
+
+        & .mil-arrow-left img {
+            transform: scaleX(-1);
         }
     }
 
@@ -577,6 +594,43 @@ illustrations
 .mil-illustration-slider-frame {
     position: relative;
     overflow: hidden;
+    padding: 0 30px;
+
+    @media screen and (max-width: 992px) {
+        padding: 0 16px;
+    }
+}
+
+.mil-fullscreen-gallery {
+    padding: 0 !important;
+    height: 85vh;
+
+    & .swiper-container,
+    & .swiper-wrapper,
+    & .swiper-slide,
+    & .mil-illustration,
+    & .mil-image-frame {
+        height: 100% !important;
+    }
+
+    & .mil-illustration.mil-fw-item {
+        padding-bottom: 0 !important;
+    }
+
+    & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.mil-illustration-slider {
+    overflow: hidden;
+
+    & .swiper-slide {
+        overflow: hidden;
+    }
 }
 
 .mil-illustration-slider-nav {

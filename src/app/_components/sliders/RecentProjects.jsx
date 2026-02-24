@@ -48,7 +48,6 @@ const RecentProjectsSlider = () => {
 
                 </div>
                 <div className="col-lg-6">
-
                     <div className="mil-illustration-slider-frame mil-up mil-mb-90">
                         <Swiper
                             {...SliderProps.milIllustrationSlider}
@@ -66,8 +65,14 @@ const RecentProjectsSlider = () => {
                         </Swiper>
                         <div className="mil-illustration-slider-nav mil-up">
                             <div className="mil-nav-buttons">
-                                <div className="mil-slider-button mil-illustration-prev">Önceki</div>
-                                <div className="mil-slider-button mil-illustration-next">Sonraki</div>
+                                <div className="mil-slider-button mil-illustration-prev">
+                                    <span className="mil-arrow mil-arrow-left"><img src="/img/icons/1.svg" alt="arrow" /></span>
+                                    Önceki
+                                </div>
+                                <div className="mil-slider-button mil-illustration-next">
+                                    Sonraki
+                                    <span className="mil-arrow mil-arrow-right"><img src="/img/icons/1.svg" alt="arrow" /></span>
+                                </div>
                             </div>
                         </div>
                     </div>
