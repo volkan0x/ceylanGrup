@@ -10,11 +10,10 @@ const CoresSection = () => {
   useEffect(() => {
     Accordion();
   }, []);
-
   return (
     <>
         {/* cores */}
-        <section className="mil-dark-bg mil-relative mil-o-hidden" style={{ backgroundColor: "#2c2c2c" }}>
+        {/* <section className="mil-dark-bg mil-relative mil-o-hidden" style={{ backgroundColor: "#2c2c2c" }}>
             {Data.bg_image && (
                 <img src={Data.bg_image} className="mil-bg-img mil-scale" alt="image" style={{"objectPosition": "top"}} data-value-1="1" data-value-2="1.2" />
             )}
@@ -64,7 +63,7 @@ const CoresSection = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
         {/* cores end */}
     </>
   );

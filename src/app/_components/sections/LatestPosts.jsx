@@ -49,6 +49,7 @@ const LatestPostsSection = ( { posts, paddingTop } ) => {
                                     </span>
                                     <h4 className="mil-upper mil-up mil-mb-30">{item.title}</h4>
                                     <p className="mil-up">{item.short}</p>
+                                    <span className="mil-link mil-upper mil-up">Oku <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></span>
                                 </div>
                             </Link>
 

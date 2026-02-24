@@ -30,7 +30,12 @@ const HeroOne = () => {
                     <div className="mil-banner-content">
                         <div className="mil-hero-logos">
                             {investmentLogos.map((logo) => (
-                                <span className="mil-hero-logo-button" key={logo.src}>
+                                <span
+                                    className={
+                                        `mil-hero-logo-button${logo.alt === "Alba Ceylan" ? " mil-hero-logo-frame" : ""}${logo.alt === "N Ceylan İnşaat" ? " mil-hero-logo-nceylan" : ""}`
+                                    }
+                                    key={logo.src}
+                                >
                                     <img src={logo.src} alt={logo.alt} />
                                 </span>
                             ))}

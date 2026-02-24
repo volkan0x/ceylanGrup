@@ -5,13 +5,11 @@ const IdeasSection = () => {
     return (
         <>
             {/* ideas */}
-            <section>
+            <section className="mil-ideas-section">
                 <div className="container mil-p-0-90">
                     <div className="mil-background-grid mil-softened" />
-
                     <div className="row">
                         <div className="col-lg-12">
-
                             <div>
                                 <span className="mil-suptitle mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.subtitle}} />
                                 <div className="mil-mb-40" style={{ position: "relative", paddingTop: "56.25%", width: "100%" }}>

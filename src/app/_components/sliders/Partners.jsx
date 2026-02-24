@@ -16,7 +16,10 @@ const PartnersSlider = ( { bgStyle } ) => {
             <div className="mil-partners-marquee mil-up">
                 <div className="mil-partners-track">
                     {[...Data.items, ...Data.items].map((item, key) => (
-                        <div className="mil-partner-frame" key={`partners-slider-item-${key}`}>
+                        <div
+                            className={`mil-partner-frame${item.image?.includes("NCeylanBG.png") ? " mil-partner-nceylanbg" : ""}${item.image?.includes("AlbaCeylanBG.png") ? " mil-partner-albaceylanbg" : ""}${item.image?.includes("NizamCeylanBG.png") ? " mil-partner-nizamceylanbg" : ""}`}
+                            key={`partners-slider-item-${key}`}
+                        >
                             <img src={item.image} alt={item.alt} />
                         </div>
                     ))}

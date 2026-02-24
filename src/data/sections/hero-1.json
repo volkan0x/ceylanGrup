@@ -1,6 +1,6 @@
 {
     "bg_image": "/img/photo/CeylanGrup.jpg",
-    "title": "Ceylan<br/><span class=\"mil-accent\">Gruba</span><br/>Hoşgeldİnİz",
+    "title": "Ceylan<br/><span style=\"color:#bfbfbf;\">Gruba</span><br/>Hoşgeldİnİz",
     "subtitle": "Geleceğİ İnşa Edİyoruz",
     "button": {
         "link": "/projelerimiz",
@@ -21,11 +21,6 @@
             "value": "10",
             "afterValue": "+",
             "label": "Yıl <br/>Deneyim"
-        },
-        {
-            "value": "2",
-            "afterValue": "+",
-            "label": "Milyon <br/>Yatırım"
         },
         {
             "value": "2",

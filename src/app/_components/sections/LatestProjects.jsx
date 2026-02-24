@@ -27,7 +27,7 @@ const LatestProjectsSection = async ( { projects } ) => {
     return (
         <>
             {/* portfolio */}
-            <section>
+            <section className="mil-latest-projects-section">
                 <div className="container-fluid">
                     <div className="row">
                         {projectRows.map((row, row_key) => (
