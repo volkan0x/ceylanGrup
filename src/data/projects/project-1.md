@@ -9,7 +9,7 @@ date: may 24 2023
 #full details
 intro:
   subtitle: "Modern concept"
-  title: "Interior Design <br/><span class=\"mil-accent\">Studio</span>"
+  title: "Ceylan <br/><span class=\"mil-accent\">Nest</span>"
   bgImage: "/img/covers/8.jpg"
 
 description:
