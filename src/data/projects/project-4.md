@@ -45,14 +45,20 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/5.jpg
-    alt: image
+  - image: /img/CeylanDiamond/CeylanDiamond.jpg
+    alt: Ceylan Diamond
 
-  - image: /img/covers/1.jpg
-    alt: image
+  - image: /img/CeylanDiamond/CeylanDiamond2.jpg
+    alt: Ceylan Diamond
 
-  - image: /img/covers/2.jpg
-    alt: image
+  - image: /img/CeylanDiamond/CeylanDiamond3.jpg
+    alt: Ceylan Diamond
+
+  - image: /img/CeylanDiamond/CeylanDiamond4.jpg
+    alt: Ceylan Diamond¡
+
+  - image: /img/CeylanDiamond/CeylanDiamond5.jpg
+    alt: Ceylan Diamond
 
 resume:
   title: Resume

@@ -45,14 +45,26 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/2.jpg
-    alt: image
+  - image: /img/CeylanGumustepe/CeylanGumustepe.jpg
+    alt: Ceylan Gumustepe
 
-  - image: /img/covers/1.jpg
-    alt: image
+  - image: /img/CeylanGumustepe/CeylanGumustepe2.jpg
+    alt: Ceylan Gumustepe
 
-  - image: /img/covers/4.jpg
-    alt: image
+  - image: /img/CeylanGumustepe/CeylanGumustepe3.jpg
+    alt: Ceylan Gumustepe
+
+  - image: /img/CeylanGumustepe/CeylanGumustepe4.jpg
+    alt: Ceylan Gumustepe
+
+  - image: /img/CeylanGumustepe/CeylanGumustepe5.jpg
+    alt: Ceylan Gumustepe
+
+  - image: /img/CeylanGumustepe/CeylanGumustepe6.jpg
+    alt: Ceylan Gumustepe
+
+  - image: /img/CeylanGumustepe/CeylanGumustepe7.jpg
+    alt: Ceylan Gumustepe
 
 resume:
   title: Resume

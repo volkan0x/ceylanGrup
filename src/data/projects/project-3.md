@@ -44,14 +44,32 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/4.jpg
-    alt: image
+  - image: /img/CeylanNirvana/CeylanNirvana.jpg
+    alt: Ceylan Nirvana
 
-  - image: /img/covers/1.jpg
-    alt: image
+  - image: /img/CeylanNirvana/CeylanNirvana1.jpg
+    alt: Ceylan Nirvana
 
-  - image: /img/covers/2.jpg
-    alt: image
+  - image: /img/CeylanNirvana/CeylanNirvana2.jpg
+    alt: Ceylan Nirvana
+
+  - image: /img/CeylanNirvana/CeylanNirvana3.jpg
+    alt: Ceylan Nirvana
+
+  - image: /img/CeylanNirvana/CeylanNirvana4.jpg
+    alt: Ceylan Nirvana
+
+  - image: /img/CeylanNirvana/CeylanNirvana5.jpg
+    alt: Ceylan Nirvana
+
+  - image: /img/CeylanNirvana/CeylanNirvana6.jpg
+    alt: Ceylan Nirvana
+
+  - image: /img/CeylanNirvana/CeylanNirvana7.jpg
+    alt: Ceylan Nirvana
+
+  - image: /img/CeylanNirvana/CeylanNirvana8.jpg
+    alt: Ceylan Nirvana
 
 resume:
   title: Resume
