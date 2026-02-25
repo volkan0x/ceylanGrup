@@ -1,7 +1,7 @@
 ---
 #preview
 title: Ceylan Plus - Beşevler
-image: /img/covers/7.jpg
+image: /img/CeylanPlusBesevler/CeylanPlusBesevler.jpg
 category: Interior
 category_slug: interior
 
@@ -9,7 +9,7 @@ category_slug: interior
 intro:
   subtitle: "Modern concept"
   title: "Technology Company <br/><span class=\"mil-accent\">Construction</span>"
-  bgImage: "/img/covers/7.jpg"
+  bgImage: "/img/CeylanPlusBesevler/CeylanPlusBesevler.jpg"
 
 description:
     heading:
@@ -43,14 +43,35 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/4.jpg
-    alt: image
+  - image: /img/CeylanPlusBesevler/CeylanPlusBesevler.jpg
+    alt: Ceylan Plus - Beşevler
 
-  - image: /img/covers/1.jpg
-    alt: image
+  - image: /img/CeylanPlusBesevler/CeylanPlusBesevler2.jpg
+    alt: Ceylan Plus - Beşevler
 
-  - image: /img/covers/2.jpg
-    alt: image
+  - image: /img/CeylanPlusBesevler/CeylanPlusBesevler3.jpg
+    alt: Ceylan Plus - Beşevler
+
+  - image: /img/CeylanPlusBesevler/CeylanPlusBesevler4.jpg
+    alt: Ceylan Plus - Beşevler
+
+  - image: /img/CeylanPlusBesevler/CeylanPlusBesevler5.jpg
+    alt: Ceylan Plus - Beşevler
+
+  - image: /img/CeylanPlusBesevler/CeylanPlusBesevler6.jpg
+    alt: Ceylan Plus - Beşevler
+
+  - image: /img/CeylanPlusBesevler/CeylanPlusBesevler7.jpg
+    alt: Ceylan Plus - Beşevler
+
+  - image: /img/CeylanPlusBesevler/CeylanPlusBesevler8.jpg
+    alt: Ceylan Plus - Beşevler
+
+  - image: /img/CeylanPlusBesevler/CeylanPlusBesevler9.jpg
+    alt: Ceylan Plus - Beşevler
+
+  - image: /img/CeylanPlusBesevler/CeylanPlusBesevler10.jpg
+    alt: Ceylan Plus - Beşevler
 
 resume:
   title: Resume

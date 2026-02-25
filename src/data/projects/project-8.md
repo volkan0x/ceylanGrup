@@ -1,7 +1,7 @@
 ---
 #preview
-title: Ceylan Plus - Beşevler
-image: /img/covers/8.jpg
+title: Ceylan Dİamond Özlüce
+image: /img/CeylanDiamondOzluce/CeylanDiamondOzluce4.jpg
 category: Interior
 category_slug: interior
 orientation: vertical
@@ -10,7 +10,7 @@ orientation: vertical
 intro:
   subtitle: "Modern concept"
   title: "Dental Clinic <br/><span class=\"mil-accent\">Construction</span>"
-  bgImage: "/img/covers/8.jpg"
+  bgImage: "/img/CeylanPlusBesevler/CeylanPlusBesevler.jpg"
 
 description:
     heading:
@@ -44,14 +44,17 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/2.jpg
-    alt: image
+  - image: /img/CeylanDiamondOzluce/CeylanDiamondOzluce.jpg
+    alt: Ceylan Diamond Özlüce
 
-  - image: /img/covers/1.jpg
-    alt: image
+  - image: /img/CeylanDiamondOzluce/CeylanDiamondOzluce2.jpg
+    alt: Ceylan Diamond Özlüce
 
-  - image: /img/covers/3.jpg
-    alt: image
+  - image: /img/CeylanDiamondOzluce/CeylanDiamondOzluce3.jpg
+    alt: Ceylan Diamond Özlüce
+
+  - image: /img/CeylanDiamondOzluce/CeylanDiamondOzluce4.jpg
+    alt: Ceylan Diamond Özlüce
 
 resume:
   title: Resume

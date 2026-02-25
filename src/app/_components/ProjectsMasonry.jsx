@@ -13,7 +13,7 @@ const ProjectsMasonry = ({ projects, categories }) => {
         if (title.includes("ceylan diamond") && title.includes("odunluk")) return "/img/CeylanDiamond.jpg";
         if (title.includes("ceylan plus") && title.includes("özlüce")) return "/img/CeylanPlusOzluce.jpg";
         if (title.includes("ceylan plaza")) return "/img/CeylanPlaza.png";
-        if (title.includes("ceylan plus") && title.includes("beşevler")) return "/img/CeylanPlusBesevler.jpg";
+        if (title.includes("ceylan plus") && title.includes("beşevler")) return "/img/CeylanPlusBesevler/CeylanPlusBesevler.jpg";
     
         return project.image;
     };
