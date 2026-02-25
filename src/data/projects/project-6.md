@@ -11,7 +11,7 @@ orientation: vertical
 intro:
   subtitle: "Modern concept"
   title: Tony's Chocolonely <br/><span class=\"mil-accent\">Factory</span>"
-  bgImage: "/img/CeylanPlusOzluce.jpg"
+  bgImage: "/img/CeylanPlusOzluce/CeylanPlusOzluce.jpg"
 
 description:
     heading:
@@ -42,14 +42,32 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/3.jpg
-    alt: image
+  - image: /img/CeylanPlusOzluce/CeylanPlusOzluce.jpg
+    alt: Ceylan Plus Ozluce
 
-  - image: /img/covers/1.jpg
-    alt: image
+  - image: /img/CeylanPlusOzluce/CeylanPlusOzluce2.jpg
+    alt: Ceylan Plus Ozluce
 
-  - image: /img/covers/2.jpg
-    alt: image
+  - image: /img/CeylanPlusOzluce/CeylanPlusOzluce3.jpg
+    alt: Ceylan Plus Ozluce
+
+  - image: /img/CeylanPlusOzluce/CeylanPlusOzluce4.jpg
+    alt: Ceylan Plus Ozluce
+
+  - image: /img/CeylanPlusOzluce/CeylanPlusOzluce5.jpg
+    alt: Ceylan Plus Ozluce
+
+  - image: /img/CeylanPlusOzluce/CeylanPlusOzluce6.jpg
+    alt: Ceylan Plus Ozluce
+
+  - image: /img/CeylanPlusOzluce/CeylanPlusOzluce7.jpg
+    alt: Ceylan Plus Ozluce
+
+  - image: /img/CeylanPlusOzluce/CeylanPlusOzluce8.jpg
+    alt: Ceylan Plus Ozluce
+
+  - image: /img/CeylanPlusOzluce/CeylanPlusOzluce9.jpg
+    alt: Ceylan Plus Ozluce
 
 resume:
   title: Resume
