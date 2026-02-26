@@ -136,6 +136,18 @@ banner
     @media screen and (max-width: 992px) {
         height: auto;
 
+        & .mil-background-grid {
+            border-left: none !important;
+            border-right: none !important;
+        }
+
+        & .mil-background-grid:before {
+            display: none !important;
+            content: none !important;
+            border: none !important;
+            background: none !important;
+        }
+
         & .mil-banner-content {
             padding: 190px 0 0;
         }
@@ -402,6 +414,32 @@ counters
         width: 2px;
         height: 50px;
         background-color: rgba(200, 200, 200, 0.7);
+    }
+
+    @media screen and (max-width: 992px) {
+        & .mil-hero-logo-button {
+            border: none !important;
+            background: transparent !important;
+        }
+
+        & .mil-hero-logo-button::before,
+        & .mil-hero-logo-button::after {
+            display: none !important;
+            content: none !important;
+        }
+
+        & .mil-hero-logo-button + .mil-hero-logo-button {
+            padding-left: 0 !important;
+            margin-left: 0 !important;
+        }
+
+        & .mil-hero-logo-button + .mil-hero-logo-button::before {
+            display: none !important;
+            content: none !important;
+            width: 0 !important;
+            height: 0 !important;
+            background-color: transparent !important;
+        }
     }
 }
 

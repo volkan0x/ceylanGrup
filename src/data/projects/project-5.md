@@ -44,14 +44,17 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/7.jpg
-    alt: image
+  - image: /img/CeylanPlaza/CeylanPlaza.png
+    alt: Ceylan Plaza
 
-  - image: /img/covers/1.jpg
-    alt: image
+  - image: /img/CeylanPlaza/CeylanPlaza2.jpg
+    alt: Ceylan Plaza
 
-  - image: /img/covers/2.jpg
-    alt: image
+  - image: /img/CeylanPlaza/CeylanPlaza3.jpg
+    alt: Ceylan Plaza
+
+  - image: /img/CeylanPlaza/CeylanPlaza4.jpg
+    alt: Ceylan Plaza
 
 resume:
   title: Resume
